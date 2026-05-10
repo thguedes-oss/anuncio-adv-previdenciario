@@ -1,0 +1,40 @@
+# Planejamento previdenciario
+"planejamento previdenciario"
+[planejamento previdenciario]
+"planejamento aposentadoria inss"
+[planejamento aposentadoria inss]
+"consulta planejamento previdenciario"
+[consulta planejamento previdenciario]
+"advogado planejamento previdenciario"
+[advogado planejamento previdenciario]
+
+# Contagem de tempo INSS
+"contagem de tempo inss"
+[contagem de tempo inss]
+"calcular tempo de contribuicao inss"
+[calcular tempo de contribuicao inss]
+"tempo de contribuicao para aposentadoria"
+[tempo de contribuicao para aposentadoria]
+"analise de cnis"
+[analise de cnis]
+
+# Quanto falta para aposentar
+"quanto falta para aposentar"
+[quanto falta para aposentar]
+"quanto tempo falta para aposentar"
+[quanto tempo falta para aposentar]
+"quando posso me aposentar pelo inss"
+[quando posso me aposentar pelo inss]
+"regras de transicao aposentadoria"
+[regras de transicao aposentadoria]
+
+# Advogado previdenciario Jacarei
+"advogado previdenciario jacarei"
+[advogado previdenciario jacarei]
+"advogado aposentadoria jacarei"
+[advogado aposentadoria jacarei]
+"advogado inss jacarei"
+[advogado inss jacarei]
+"consulta previdenciaria jacarei"
+[consulta previdenciaria jacarei]
+
