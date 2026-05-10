@@ -1,31 +1,31 @@
 # Anúncios Responsivos De Pesquisa
 
-Use os textos abaixo como banco revisado para leads mais qualificados. A campanha deve permanecer pausada até a revisão final dentro do Google Ads.
+Use os textos abaixo como banco revisado para leads 55+ e consulta particular. A campanha deve permanecer pausada até a revisão final dentro do Google Ads.
 
 ## Títulos
 
 - Planejamento de Aposentadoria
 - Contagem de Tempo INSS
 - Consulta Previdenciária
-- Aposentadoria pelo INSS
+- Consulta Particular INSS
 - Análise de CNIS
 - Consulta Para Aposentadoria
 - Atendimento em Jacareí
 - São José dos Campos
 - Consulta Com Agendamento
-- Quando Pedir Aposentadoria
-- Planeje Antes De Pedir
+- Perto de Se Aposentar
+- Momento de Aposentar
 - Organize Seu CNIS
 - Histórico Contributivo
-- Documentos Para Consulta
+- Possibilidades De Benefício
 - Direito Previdenciário
 
 ## Descrições
 
-- Consulta para analisar CNIS, vínculos e tempo de contribuição antes do pedido ao INSS.
-- Planejamento para quem quer estimar o momento adequado de solicitar aposentadoria.
-- Atendimento mediante agendamento para organizar documentos e próximos passos.
-- Foco em contagem de tempo, histórico contributivo e consulta previdenciária.
+- Consulta particular para analisar CNIS, vínculos e tempo antes do pedido ao INSS.
+- Planejamento para estimar o momento adequado e possibilidades de benefício.
+- Atendimento mediante agendamento, com documentos organizados para análise.
+- Foco em trabalhador próximo da aposentadoria e histórico contributivo.
 
 ## Caminhos de exibição
 
@@ -37,6 +37,6 @@ Use os textos abaixo como banco revisado para leads mais qualificados. A campanh
 ## Cuidados de texto
 
 - Não usar `grátis`, `desconto`, `garantido`, `melhor` ou comparações.
-- Não mencionar valores ou forma de pagamento.
+- Não mencionar valores ou forma de pagamento em anúncio público.
 - Não prometer concessão de benefício.
 - Preferir linguagem objetiva: `consulta`, `agendamento`, `análise`, `documentos`, `planejamento`.

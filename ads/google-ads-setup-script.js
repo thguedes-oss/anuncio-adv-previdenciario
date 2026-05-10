@@ -3,6 +3,7 @@ const OLD_CAMPAIGN_NAME_ACCENTED = "[S] - Leads - Previdenci\u00e1rio";
 const CAMPAIGN_NAME = "INSS Planejamento Jacarei SJC";
 const FINAL_URL = "https://thguedes-oss.github.io/anuncio-adv-previdenciario/";
 const DAILY_BUDGET = 25;
+const API_VERSION = "v24";
 
 const TARGET_LOCATION_IDS = [
   1031741, // Jacarei, State of Sao Paulo, Brazil
@@ -13,25 +14,38 @@ const HEADLINES = [
   "Planejamento de Aposentadoria",
   "Contagem de Tempo INSS",
   "Consulta Previdenci\u00e1ria",
-  "Aposentadoria pelo INSS",
+  "Consulta Particular INSS",
   "An\u00e1lise de CNIS",
   "Consulta Para Aposentadoria",
   "Atendimento em Jacare\u00ed",
   "S\u00e3o Jos\u00e9 dos Campos",
   "Consulta Com Agendamento",
-  "Quando Pedir Aposentadoria",
-  "Planeje Antes De Pedir",
+  "Perto de Se Aposentar",
+  "Momento de Aposentar",
   "Organize Seu CNIS",
   "Hist\u00f3rico Contributivo",
-  "Documentos Para Consulta",
+  "Possibilidades De Benef\u00edcio",
   "Direito Previdenci\u00e1rio"
 ];
 
 const DESCRIPTIONS = [
-  "Consulta para analisar CNIS, v\u00ednculos e tempo de contribui\u00e7\u00e3o antes do pedido ao INSS.",
-  "Planejamento para quem quer estimar o momento adequado de solicitar aposentadoria.",
-  "Atendimento mediante agendamento para organizar documentos e pr\u00f3ximos passos.",
-  "Foco em contagem de tempo, hist\u00f3rico contributivo e consulta previdenci\u00e1ria."
+  "Consulta particular para analisar CNIS, v\u00ednculos e tempo antes do pedido ao INSS.",
+  "Planejamento para estimar o momento adequado e possibilidades de benef\u00edcio.",
+  "Atendimento mediante agendamento, com documentos organizados para an\u00e1lise.",
+  "Foco em trabalhador pr\u00f3ximo da aposentadoria e hist\u00f3rico contributivo."
+];
+
+const EXCLUDED_AGE_RANGES = [
+  "AGE_RANGE_18_24",
+  "AGE_RANGE_25_34",
+  "AGE_RANGE_35_44",
+  "AGE_RANGE_45_54",
+  "AGE_RANGE_UNDETERMINED"
+];
+
+const ALLOWED_AGE_RANGES = [
+  "AGE_RANGE_55_64",
+  "AGE_RANGE_65_UP"
 ];
 
 const AD_GROUPS = [
@@ -46,8 +60,12 @@ const AD_GROUPS = [
       '[planejamento aposentadoria inss]',
       '"consulta planejamento aposentadoria"',
       '[consulta planejamento aposentadoria]',
+      '"consulta previdenciaria aposentadoria"',
+      '[consulta previdenciaria aposentadoria]',
       '"consulta de planejamento previdenciario"',
       '[consulta de planejamento previdenciario]',
+      '"consulta particular aposentadoria"',
+      '[consulta particular aposentadoria]',
       '"planejamento aposentadoria advogado"',
       '[planejamento aposentadoria advogado]'
     ]
@@ -57,12 +75,18 @@ const AD_GROUPS = [
     keywords: [
       '"contagem de tempo inss"',
       '[contagem de tempo inss]',
+      '"contagem de tempo inss advogado"',
+      '[contagem de tempo inss advogado]',
       '"tempo de contribui\u00e7\u00e3o para aposentadoria"',
       '"tempo de contribuicao para aposentadoria"',
       '"an\u00e1lise de cnis"',
       '[an\u00e1lise de cnis]',
       '"analise de cnis"',
       '[analise de cnis]',
+      '"an\u00e1lise cnis aposentadoria"',
+      '[an\u00e1lise cnis aposentadoria]',
+      '"analise cnis aposentadoria"',
+      '[analise cnis aposentadoria]',
       '"consulta cnis aposentadoria"',
       '[consulta cnis aposentadoria]'
     ]
@@ -74,12 +98,12 @@ const AD_GROUPS = [
       '[quanto falta para aposentar]',
       '"quanto tempo falta para aposentar"',
       '[quanto tempo falta para aposentar]',
-      '"quando posso me aposentar pelo inss"',
-      '[quando posso me aposentar pelo inss]',
       '"melhor momento para aposentar"',
       '[melhor momento para aposentar]',
       '"quando pedir aposentadoria inss"',
-      '[quando pedir aposentadoria inss]'
+      '[quando pedir aposentadoria inss]',
+      '"planejar pedido de aposentadoria"',
+      '[planejar pedido de aposentadoria]'
     ]
   },
   {
@@ -91,6 +115,8 @@ const AD_GROUPS = [
       '[advogado previdenci\u00e1rio jacare\u00ed]',
       '"advogado aposentadoria jacarei"',
       '[advogado aposentadoria jacarei]',
+      '"advogado planejamento aposentadoria jacarei"',
+      '[advogado planejamento aposentadoria jacarei]',
       '"consulta previdenciaria jacarei"',
       '[consulta previdenciaria jacarei]',
       '"advogado previdenciario sao jose dos campos"',
@@ -98,6 +124,8 @@ const AD_GROUPS = [
       '"advogado previdenci\u00e1rio s\u00e3o jos\u00e9 dos campos"',
       '"advogado aposentadoria sao jose dos campos"',
       '[advogado aposentadoria sao jose dos campos]',
+      '"advogado planejamento aposentadoria sao jose dos campos"',
+      '[advogado planejamento aposentadoria sao jose dos campos]',
       '"consulta previdenciaria sao jose dos campos"',
       '[consulta previdenciaria sao jose dos campos]',
       '"advogado previdenciario sjc"'
@@ -181,6 +209,7 @@ function main() {
   setAdScheduleIfEmpty(campaign);
   pauseLegacyAdGroups(campaign);
   upsertAdGroups(campaign);
+  applyAgeFilter(campaign);
   upsertCampaignNegatives(campaign);
 
   campaign.pause();
@@ -340,4 +369,122 @@ function upsertCampaignNegatives(campaign) {
       Logger.log("Falha ao adicionar negativa " + text + ": " + error);
     }
   });
+}
+
+function applyAgeFilter(campaign) {
+  const adGroups = [];
+  const adGroupIterator = campaign.adGroups().get();
+  while (adGroupIterator.hasNext()) {
+    adGroups.push(adGroupIterator.next());
+  }
+
+  const existing = getExistingAgeCriteria(campaign.getId());
+  const removeOperations = [];
+  const createOperations = [];
+  const customerId = AdsApp.currentAccount().getCustomerId().replace(/-/g, "");
+
+  adGroups.forEach(function(adGroup) {
+    const adGroupId = String(adGroup.getId());
+    const criteria = existing[adGroupId] || {};
+
+    Object.keys(criteria).forEach(function(ageRange) {
+      criteria[ageRange].forEach(function(criterion) {
+        if (criterion.status === "REMOVED") {
+          return;
+        }
+        if (isExcludedAge(ageRange) && !criterion.negative) {
+          removeOperations.push({
+            adGroupCriterionOperation: {
+              remove: criterion.resourceName
+            }
+          });
+          Logger.log("Faixa et\u00e1ria positiva removida para exclus\u00e3o em " + adGroup.getName() + ": " + ageRange);
+        }
+        if (isAllowedAge(ageRange) && criterion.negative) {
+          removeOperations.push({
+            adGroupCriterionOperation: {
+              remove: criterion.resourceName
+            }
+          });
+          Logger.log("Exclus\u00e3o removida de faixa 55+ em " + adGroup.getName() + ": " + ageRange);
+        }
+      });
+    });
+
+    EXCLUDED_AGE_RANGES.forEach(function(ageRange) {
+      if (hasNegativeAge(criteria, ageRange)) {
+        return;
+      }
+      createOperations.push({
+        adGroupCriterionOperation: {
+          create: {
+            adGroup: "customers/" + customerId + "/adGroups/" + adGroupId,
+            negative: true,
+            ageRange: {
+              type: ageRange
+            }
+          }
+        }
+      });
+      Logger.log("Exclus\u00e3o demogr\u00e1fica 55+ preparada em " + adGroup.getName() + ": " + ageRange);
+    });
+  });
+
+  mutateAllSafely(removeOperations, "remo\u00e7\u00f5es de idade");
+  mutateAllSafely(createOperations, "exclus\u00f5es de idade");
+  Logger.log("Filtro demogr\u00e1fico aplicado: manter 55-64 e 65+, excluir faixas abaixo de 55 e desconhecida.");
+}
+
+function getExistingAgeCriteria(campaignId) {
+  const criteria = {};
+  const query =
+    "SELECT ad_group.id, ad_group.name, ad_group_criterion.resource_name, " +
+    "ad_group_criterion.age_range.type, ad_group_criterion.negative, ad_group_criterion.status " +
+    "FROM ad_group_criterion " +
+    "WHERE campaign.id = " + campaignId + " " +
+    "AND ad_group_criterion.type = AGE_RANGE";
+  const rows = AdsApp.search(query, { apiVersion: API_VERSION });
+  while (rows.hasNext()) {
+    const row = rows.next();
+    const adGroupId = String(row.adGroup.id);
+    const ageRange = row.adGroupCriterion.ageRange.type;
+    if (!criteria[adGroupId]) {
+      criteria[adGroupId] = {};
+    }
+    if (!criteria[adGroupId][ageRange]) {
+      criteria[adGroupId][ageRange] = [];
+    }
+    criteria[adGroupId][ageRange].push({
+      resourceName: row.adGroupCriterion.resourceName,
+      negative: Boolean(row.adGroupCriterion.negative),
+      status: String(row.adGroupCriterion.status || "")
+    });
+  }
+  return criteria;
+}
+
+function hasNegativeAge(criteria, ageRange) {
+  return Boolean((criteria[ageRange] || []).some(function(criterion) {
+    return criterion.negative && criterion.status !== "REMOVED";
+  }));
+}
+
+function isExcludedAge(ageRange) {
+  return EXCLUDED_AGE_RANGES.indexOf(ageRange) !== -1;
+}
+
+function isAllowedAge(ageRange) {
+  return ALLOWED_AGE_RANGES.indexOf(ageRange) !== -1;
+}
+
+function mutateAllSafely(operations, label) {
+  if (!operations.length) {
+    Logger.log("Sem " + label + " para aplicar.");
+    return;
+  }
+  AdsApp.mutateAll(operations, {
+    apiVersion: API_VERSION,
+    partialFailure: false
+  });
+  Logger.log("Opera\u00e7\u00f5es aplicadas para " + label + ": " + operations.length);
 }

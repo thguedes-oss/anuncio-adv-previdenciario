@@ -2,23 +2,23 @@
 
 ## Mensagem automática inicial
 
-Olá. Obrigado pelo contato. Este canal organiza o agendamento da consulta de planejamento de aposentadoria. A orientação jurídica individual ocorre em consulta mediante agendamento, após análise das informações e documentos.
+Olá. Obrigado pelo contato. Este canal organiza o agendamento da consulta particular de planejamento de aposentadoria. A orientação jurídica individual ocorre em consulta mediante agendamento, após análise das informações e documentos.
 
 Para agilizar o atendimento, envie:
 
 1. Nome completo
 2. Idade
-3. Objetivo: planejar aposentadoria, saber quanto falta ou revisar CNIS
+3. Objetivo: planejar aposentadoria, saber quando pedir o benefício ou revisar CNIS
 4. Se possui CNIS atualizado
 5. Se já fez pedido no INSS
 
-Com essas informações, o escritório orienta os documentos necessários e organiza o agendamento.
+Com essas informações, o escritório orienta os documentos necessários e organiza o agendamento da consulta particular.
 
 ## Respostas rápidas sugeridas
 
 ### Caso adequado
 
-Obrigado pelas informações. O próximo passo é organizar o agendamento da consulta e separar os documentos para análise individual.
+Obrigado pelas informações. O próximo passo é organizar o agendamento da consulta particular e separar os documentos para análise individual.
 
 ### Falta CNIS
 
@@ -26,11 +26,11 @@ O CNIS atualizado costuma ser um documento importante para a consulta. Se tiver 
 
 ### Busca apenas informação gratuita
 
-Entendo. Este canal não substitui consulta jurídica individual. Casos concretos são tratados em consulta mediante agendamento.
+Entendo. Este canal não substitui consulta jurídica individual. Casos concretos são tratados em consulta particular mediante agendamento.
 
 ### Fora do foco da campanha
 
-Obrigado pelo contato. Neste canal, o foco inicial é planejamento previdenciário, contagem de tempo e aposentadoria pelo INSS. Se o assunto for outro, o escritório avaliará a possibilidade de atendimento ou encaminhamento adequado.
+Obrigado pelo contato. Neste canal, o foco inicial é planejamento previdenciário, contagem de tempo e aposentadoria pelo INSS para quem está próximo de se aposentar. Se o assunto for outro, o escritório avaliará a possibilidade de atendimento ou encaminhamento adequado.
 
 ## Regras de segurança
 

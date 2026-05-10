@@ -5,7 +5,7 @@ const OFFICE = {
 };
 
 const whatsappMessage = [
-  "Olá, gostaria de agendar uma consulta de planejamento de aposentadoria pelo INSS."
+  "Olá, gostaria de agendar uma consulta particular de planejamento de aposentadoria pelo INSS."
 ].join("\n");
 
 function getGoogleAdsConfig() {

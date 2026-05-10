@@ -7,14 +7,20 @@
 [planejamento aposentadoria inss]
 "consulta planejamento aposentadoria"
 [consulta planejamento aposentadoria]
+"consulta previdenciaria aposentadoria"
+[consulta previdenciaria aposentadoria]
 "consulta de planejamento previdenciario"
 [consulta de planejamento previdenciario]
+"consulta particular aposentadoria"
+[consulta particular aposentadoria]
 "planejamento aposentadoria advogado"
 [planejamento aposentadoria advogado]
 
 # Contagem de tempo INSS
 "contagem de tempo inss"
 [contagem de tempo inss]
+"contagem de tempo inss advogado"
+[contagem de tempo inss advogado]
 "tempo de contribuição para aposentadoria"
 [tempo de contribuição para aposentadoria]
 "tempo de contribuicao para aposentadoria"
@@ -23,6 +29,10 @@
 [análise de cnis]
 "analise de cnis"
 [analise de cnis]
+"análise cnis aposentadoria"
+[análise cnis aposentadoria]
+"analise cnis aposentadoria"
+[analise cnis aposentadoria]
 "consulta cnis aposentadoria"
 [consulta cnis aposentadoria]
 
@@ -31,12 +41,12 @@
 [quanto falta para aposentar]
 "quanto tempo falta para aposentar"
 [quanto tempo falta para aposentar]
-"quando posso me aposentar pelo inss"
-[quando posso me aposentar pelo inss]
 "melhor momento para aposentar"
 [melhor momento para aposentar]
 "quando pedir aposentadoria inss"
 [quando pedir aposentadoria inss]
+"planejar pedido de aposentadoria"
+[planejar pedido de aposentadoria]
 
 # Advogado previdenciário Jacareí e SJC
 "advogado previdenciario jacarei"
@@ -45,6 +55,8 @@
 [advogado previdenciário jacareí]
 "advogado aposentadoria jacarei"
 [advogado aposentadoria jacarei]
+"advogado planejamento aposentadoria jacarei"
+[advogado planejamento aposentadoria jacarei]
 "consulta previdenciaria jacarei"
 [consulta previdenciaria jacarei]
 "advogado previdenciario sao jose dos campos"
@@ -53,6 +65,8 @@
 [advogado previdenciário são josé dos campos]
 "advogado aposentadoria sao jose dos campos"
 [advogado aposentadoria sao jose dos campos]
+"advogado planejamento aposentadoria sao jose dos campos"
+[advogado planejamento aposentadoria sao jose dos campos]
 "consulta previdenciaria sao jose dos campos"
 [consulta previdenciaria sao jose dos campos]
 "advogado previdenciario sjc"

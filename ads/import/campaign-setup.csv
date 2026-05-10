@@ -3,8 +3,9 @@ Campanha;INSS Planejamento Jacarei SJC
 Status inicial;Pausada
 Tipo;Rede de Pesquisa
 Orçamento diário;R$ 25
-Meta;Agendamentos qualificados para consulta de planejamento de aposentadoria
-Perfil prioritário;Pessoas próximas da aposentadoria, em regra 50+
+Meta;Agendamentos qualificados para consulta particular de planejamento de aposentadoria
+Perfil prioritário;Pessoas 55+ próximas da aposentadoria
+Filtro demográfico;Manter 55-64 e 65+, excluir abaixo de 55 e desconhecida
 Lance inicial;Maximizar cliques com controle conservador de orçamento
 Redes;Pesquisa Google
 Parceiros de pesquisa;Desativado no primeiro teste

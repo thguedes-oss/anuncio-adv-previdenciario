@@ -9,7 +9,7 @@ A campanha deve ser informativa, discreta e sobria. O objetivo e apresentar a at
 - Informar area de atuacao.
 - Informar cidade e canal de contato.
 - Explicar que o primeiro contato serve para agendamento e preparação documental.
-- Informar que a consulta e mediante agendamento.
+- Informar que a consulta é particular e mediante agendamento, sem divulgar valor em anúncio público.
 - Pedir dados objetivos e indicar documentos para organizar atendimento.
 - Usar Google Ads em resposta a buscas relacionadas ao tema.
 

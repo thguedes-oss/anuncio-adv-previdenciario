@@ -6,10 +6,11 @@
 - Tipo: Rede de Pesquisa
 - Status inicial: pausada
 - Redes: apenas Pesquisa Google; desativar parceiros de pesquisa no primeiro teste
-- Meta: agendamentos de consulta para planejamento de aposentadoria, com foco em pessoas próximas de se aposentar
+- Meta: agendamentos de consulta particular para planejamento de aposentadoria, com foco em pessoas 55+ próximas de se aposentar
 - Orçamento: `R$ 25 por dia`
 - Lance inicial: maximizar cliques com controle conservador de orçamento enquanto as conversões ainda não tiverem histórico; migrar para maximizar conversões quando houver dados consistentes
 - Localização: pessoas em Jacareí e São José dos Campos; usar presença na região, não interesse pela região
+- Demografia: manter apenas `55 a 64` e `65 ou mais`; excluir faixas abaixo de 55 e `Desconhecida`
 - Idioma: português
 - Horário sugerido: segunda a sexta, 8h às 19h; sábado, 8h às 12h
 - URL final: `https://thguedes-oss.github.io/anuncio-adv-previdenciario/`
@@ -23,8 +24,8 @@
 
 ## Perfil de lead qualificado
 
-- Pessoa próxima da aposentadoria, em regra 50+ ou com histórico contributivo relevante.
-- Busca saber quando pedir aposentadoria e qual o melhor momento para o pedido.
+- Pessoa 55+ ou já efetivamente próxima da aposentadoria.
+- Busca saber quando pedir aposentadoria e quais possibilidades de benefício fazem sentido no histórico.
 - Aceita organizar CNIS, vínculos, carteira e documentos para consulta profissional.
 - Não busca apenas simulador, telefone do INSS, modelo, PDF, curso, gratuidade ou informação genérica.
 
@@ -38,7 +39,7 @@
   - `Documentos para análise`
   - `Atendimento em Jacareí`
 - Frases de destaque:
-  - `Consulta mediante agendamento`
+  - `Consulta particular mediante agendamento`
   - `Planejamento de aposentadoria`
   - `Análise de CNIS e vínculos`
   - `Jacareí e São José dos Campos`
