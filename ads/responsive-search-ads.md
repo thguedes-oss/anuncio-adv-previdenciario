@@ -1,42 +1,42 @@
 # Anúncios Responsivos De Pesquisa
 
-Use os textos abaixo como banco inicial. A campanha deve permanecer pausada até a revisão final dentro do Google Ads.
+Use os textos abaixo como banco revisado para leads mais qualificados. A campanha deve permanecer pausada até a revisão final dentro do Google Ads.
 
 ## Títulos
 
-- Planejamento Previdenciário
+- Planejamento de Aposentadoria
 - Contagem de Tempo INSS
 - Consulta Previdenciária
 - Aposentadoria pelo INSS
 - Análise de CNIS
-- Advogado Previdenciário
+- Consulta Para Aposentadoria
 - Atendimento em Jacareí
 - São José dos Campos
 - Consulta Com Agendamento
-- Tempo Para Aposentar
-- Regras de Transição INSS
-- Orientação Previdenciária
-- Histórico de Contribuição
-- Documentos Para Aposentar
+- Quando Pedir Aposentadoria
+- Planeje Antes De Pedir
+- Organize Seu CNIS
+- Histórico Contributivo
+- Documentos Para Consulta
 - Direito Previdenciário
 
 ## Descrições
 
-- Análise do CNIS, vínculos e contribuições para planejamento de aposentadoria pelo INSS.
-- Atendimento previdenciário mediante agendamento para quem deseja organizar o pedido ao INSS.
-- Triagem pelo WhatsApp para orientar os documentos necessários antes da consulta.
-- Planejamento de aposentadoria com foco em contagem de tempo e histórico contributivo.
+- Consulta para analisar CNIS, vínculos e tempo de contribuição antes do pedido ao INSS.
+- Planejamento para quem quer estimar o momento adequado de solicitar aposentadoria.
+- Atendimento mediante agendamento para organizar documentos e próximos passos.
+- Foco em contagem de tempo, histórico contributivo e consulta previdenciária.
 
 ## Caminhos de exibição
 
+- `aposentadoria`
+- `inss`
 - `planejamento`
-- `aposentadoria-inss`
-- `contagem-tempo`
-- `jacarei-sjc`
+- `consulta`
 
 ## Cuidados de texto
 
 - Não usar `grátis`, `desconto`, `garantido`, `melhor` ou comparações.
 - Não mencionar valores ou forma de pagamento.
 - Não prometer concessão de benefício.
-- Preferir linguagem objetiva: `análise`, `orientação`, `consulta`, `documentos`, `planejamento`.
+- Preferir linguagem objetiva: `consulta`, `agendamento`, `análise`, `documentos`, `planejamento`.

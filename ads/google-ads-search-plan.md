@@ -6,9 +6,9 @@
 - Tipo: Rede de Pesquisa
 - Status inicial: pausada
 - Redes: apenas Pesquisa Google; desativar parceiros de pesquisa no primeiro teste
-- Meta: leads qualificados para consulta previdenciária mediante agendamento
+- Meta: agendamentos de consulta para planejamento de aposentadoria, com foco em pessoas próximas de se aposentar
 - Orçamento: `R$ 25 por dia`
-- Lance inicial: maximizar cliques com limite de CPC enquanto as conversões ainda não tiverem histórico; migrar para maximizar conversões quando houver dados consistentes
+- Lance inicial: maximizar cliques com controle conservador de orçamento enquanto as conversões ainda não tiverem histórico; migrar para maximizar conversões quando houver dados consistentes
 - Localização: pessoas em Jacareí e São José dos Campos; usar presença na região, não interesse pela região
 - Idioma: português
 - Horário sugerido: segunda a sexta, 8h às 19h; sábado, 8h às 12h
@@ -21,6 +21,13 @@
 3. `Prazo para aposentadoria`
 4. `Advogado previdenciário Jacareí SJC`
 
+## Perfil de lead qualificado
+
+- Pessoa próxima da aposentadoria, em regra 50+ ou com histórico contributivo relevante.
+- Busca saber quando pedir aposentadoria e qual o melhor momento para o pedido.
+- Aceita organizar CNIS, vínculos, carteira e documentos para consulta profissional.
+- Não busca apenas simulador, telefone do INSS, modelo, PDF, curso, gratuidade ou informação genérica.
+
 ## Recursos recomendados
 
 - Recurso de chamada: telefone do escritório
@@ -32,9 +39,10 @@
   - `Atendimento em Jacareí`
 - Frases de destaque:
   - `Consulta mediante agendamento`
-  - `Análise individual do histórico`
+  - `Planejamento de aposentadoria`
+  - `Análise de CNIS e vínculos`
   - `Jacareí e São José dos Campos`
-  - `Direito Previdenciario INSS`
+  - `Contagem de tempo INSS`
 - Snippet estruturado:
   - Cabeçalho: `Serviços`
   - Valores: `Planejamento previdenciário, Contagem de tempo, Análise de CNIS, Aposentadoria INSS`
@@ -46,6 +54,12 @@
 - Dias 3 a 7: verificar termos pesquisados e adicionar negativas óbvias.
 - Dia 14: revisar termos, custo por lead, conversas iniciadas e leads realmente qualificados.
 - Dia 30: decidir se mantém, pausa ou aumenta verba com base em custo por lead qualificado.
+
+## Critério comercial da primeira fase
+
+- Otimizar por lead qualificado, não por volume de WhatsApp.
+- Se muitos contatos pedirem informação genérica, reforçar negativas e texto de consulta profissional.
+- Se poucos contatos chegarem, ampliar termos com cautela antes de aumentar orçamento.
 
 ## Não usar no primeiro teste
 

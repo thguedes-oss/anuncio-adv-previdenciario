@@ -156,6 +156,10 @@ const NEGATIVE_KEYWORDS = [
   "emprego",
   '"per\u00edcia m\u00e9dica inss"',
   '"pericia medica inss"',
+  '"n\u00famero do inss"',
+  '"numero do inss"',
+  '"benef\u00edcio bloqueado telefone"',
+  '"beneficio bloqueado telefone"',
   '"entrar no meu inss"',
   '"login meu inss"',
   "bpc",
@@ -178,13 +182,13 @@ function main() {
   campaign.getBudget().setAmount(DAILY_BUDGET);
 
   setLocations(campaign);
-  setAdScheduleIfEmpty(campaign);
+  resetAdSchedule(campaign);
   pauseLegacyAdGroups(campaign);
   upsertAdGroups(campaign);
   upsertCampaignNegatives(campaign);
 
   campaign.pause();
-  Logger.log("Campanha preparada e mantida pausada: " + campaign.getName());
+  Logger.log("Revis\u00e3o estrat\u00e9gica aplicada. Campanha mantida pausada: " + campaign.getName());
 }
 
 function findCampaign() {
@@ -214,8 +218,12 @@ function setLocations(campaign) {
     const id = String(location.getId());
     existing[id] = true;
     if (!desired[id]) {
-      location.remove();
-      Logger.log("Local removido: " + id);
+      try {
+        location.remove();
+        Logger.log("Local removido: " + id);
+      } catch (error) {
+        Logger.log("Falha ao remover local " + id + ": " + error);
+      }
     }
   }
 
@@ -227,9 +235,10 @@ function setLocations(campaign) {
   });
 }
 
-function setAdScheduleIfEmpty(campaign) {
-  if (campaign.targeting().adSchedules().get().hasNext()) {
-    return;
+function resetAdSchedule(campaign) {
+  const schedules = campaign.targeting().adSchedules().get();
+  while (schedules.hasNext()) {
+    schedules.next().remove();
   }
   ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"].forEach(function(day) {
     campaign.addAdSchedule(day, 8, 0, 19, 0);
@@ -257,7 +266,8 @@ function upsertAdGroups(campaign) {
   AD_GROUPS.forEach(function(group) {
     const adGroup = getOrCreateAdGroup(campaign, group.name);
     addKeywords(adGroup, group.keywords);
-    addResponsiveSearchAdIfMissing(adGroup);
+    pauseUnlistedKeywords(adGroup, group.keywords);
+    refreshResponsiveSearchAd(adGroup);
   });
 }
 
@@ -284,11 +294,11 @@ function addKeywords(adGroup, keywordTexts) {
   const keywordIterator = adGroup.keywords().get();
   while (keywordIterator.hasNext()) {
     const keyword = keywordIterator.next();
-    existing[keyword.getText()] = true;
+    existing[keywordKey(keyword.getText())] = true;
   }
 
   keywordTexts.forEach(function(text) {
-    if (existing[text]) {
+    if (existing[keywordKey(text)]) {
       return;
     }
     try {
@@ -303,12 +313,37 @@ function addKeywords(adGroup, keywordTexts) {
   });
 }
 
-function addResponsiveSearchAdIfMissing(adGroup) {
+function pauseUnlistedKeywords(adGroup, keywordTexts) {
+  const allowed = {};
+  keywordTexts.forEach(function(text) {
+    allowed[keywordKey(text)] = true;
+  });
+
+  const keywordIterator = adGroup.keywords().get();
+  while (keywordIterator.hasNext()) {
+    const keyword = keywordIterator.next();
+    if (!allowed[keywordKey(keyword.getText())]) {
+      keyword.pause();
+      Logger.log("Palavra-chave antiga pausada em " + adGroup.getName() + ": " + keyword.getText());
+    }
+  }
+}
+
+function keywordKey(text) {
+  return String(text).toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+function refreshResponsiveSearchAd(adGroup) {
   const ads = adGroup.ads()
     .withCondition('ad_group_ad.ad.type = RESPONSIVE_SEARCH_AD')
     .get();
-  if (ads.hasNext()) {
-    return;
+  let paused = 0;
+  while (ads.hasNext()) {
+    ads.next().pause();
+    paused++;
+  }
+  if (paused > 0) {
+    Logger.log("An\u00fancios responsivos antigos pausados em " + adGroup.getName() + ": " + paused);
   }
 
   adGroup.newAd().responsiveSearchAdBuilder()
@@ -318,7 +353,7 @@ function addResponsiveSearchAdIfMissing(adGroup) {
     .withHeadlines(HEADLINES)
     .withDescriptions(DESCRIPTIONS)
     .build();
-  Logger.log("An\u00fancio responsivo criado em: " + adGroup.getName());
+  Logger.log("Novo an\u00fancio responsivo estrat\u00e9gico criado em: " + adGroup.getName());
 }
 
 function upsertCampaignNegatives(campaign) {
@@ -326,11 +361,11 @@ function upsertCampaignNegatives(campaign) {
   const iterator = campaign.negativeKeywords().get();
   while (iterator.hasNext()) {
     const negative = iterator.next();
-    existing[negative.getText()] = true;
+    existing[keywordKey(negative.getText())] = true;
   }
 
   NEGATIVE_KEYWORDS.forEach(function(text) {
-    if (existing[text]) {
+    if (existing[keywordKey(text)]) {
       return;
     }
     try {

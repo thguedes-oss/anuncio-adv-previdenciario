@@ -5,18 +5,16 @@
 [planejamento previdenciário]
 "planejamento aposentadoria inss"
 [planejamento aposentadoria inss]
-"consulta planejamento previdenciario"
-[consulta planejamento previdenciario]
-"advogado planejamento previdenciario"
-[advogado planejamento previdenciario]
+"consulta planejamento aposentadoria"
+[consulta planejamento aposentadoria]
+"consulta de planejamento previdenciario"
+[consulta de planejamento previdenciario]
+"planejamento aposentadoria advogado"
+[planejamento aposentadoria advogado]
 
 # Contagem de tempo INSS
 "contagem de tempo inss"
 [contagem de tempo inss]
-"calcular tempo de contribuição inss"
-[calcular tempo de contribuição inss]
-"calcular tempo de contribuicao inss"
-[calcular tempo de contribuicao inss]
 "tempo de contribuição para aposentadoria"
 [tempo de contribuição para aposentadoria]
 "tempo de contribuicao para aposentadoria"
@@ -25,6 +23,8 @@
 [análise de cnis]
 "analise de cnis"
 [analise de cnis]
+"consulta cnis aposentadoria"
+[consulta cnis aposentadoria]
 
 # Prazo para aposentadoria
 "quanto falta para aposentar"
@@ -33,10 +33,10 @@
 [quanto tempo falta para aposentar]
 "quando posso me aposentar pelo inss"
 [quando posso me aposentar pelo inss]
-"regras de transição aposentadoria"
-[regras de transição aposentadoria]
-"regras de transicao aposentadoria"
-[regras de transicao aposentadoria]
+"melhor momento para aposentar"
+[melhor momento para aposentar]
+"quando pedir aposentadoria inss"
+[quando pedir aposentadoria inss]
 
 # Advogado previdenciário Jacareí e SJC
 "advogado previdenciario jacarei"
@@ -45,8 +45,6 @@
 [advogado previdenciário jacareí]
 "advogado aposentadoria jacarei"
 [advogado aposentadoria jacarei]
-"advogado inss jacarei"
-[advogado inss jacarei]
 "consulta previdenciaria jacarei"
 [consulta previdenciaria jacarei]
 "advogado previdenciario sao jose dos campos"

@@ -10,18 +10,38 @@ concurso;Broad
 vagas;Broad
 salário;Broad
 salario;Broad
+tabela;Broad
 telefone do inss;Phrase
 telefone inss;Phrase
+telefone inss jacarei;Phrase
 meu inss;Phrase
 agência inss;Phrase
 agencia inss;Phrase
+endereço inss;Phrase
+endereco inss;Phrase
+agendamento inss;Phrase
 gov.br;Broad
+gov;Broad
+inss.gov;Broad
+app meu inss;Phrase
 simulador grátis;Phrase
 simulador gratis;Phrase
 simulador gratuito;Phrase
 calculadora grátis;Phrase
 calculadora gratis;Phrase
 calculadora gratuita;Phrase
+como fazer;Phrase
+como pedir;Phrase
+passo a passo;Phrase
+tutorial;Broad
+dúvida;Broad
+duvida;Broad
+dúvidas;Broad
+duvidas;Broad
+extrato cnis;Phrase
+baixar cnis;Phrase
+emissão cnis;Phrase
+emissao cnis;Phrase
 apostila;Broad
 faculdade;Broad
 estágio;Broad
@@ -29,5 +49,20 @@ estagio;Broad
 emprego;Broad
 perícia médica inss;Phrase
 pericia medica inss;Phrase
+número do inss;Phrase
+numero do inss;Phrase
+benefício bloqueado telefone;Phrase
+beneficio bloqueado telefone;Phrase
 entrar no meu inss;Phrase
 login meu inss;Phrase
+bpc;Broad
+loas;Broad
+auxílio doença;Phrase
+auxilio doenca;Phrase
+pensão por morte;Phrase
+pensao por morte;Phrase
+benefício negado;Phrase
+beneficio negado;Phrase
+recurso inss;Phrase
+revisão da vida toda;Phrase
+revisao da vida toda;Phrase

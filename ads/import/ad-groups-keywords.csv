@@ -2,23 +2,48 @@ Ad group;Keyword;Match type
 Planejamento previdenciário;planejamento previdenciario;Phrase
 Planejamento previdenciário;planejamento previdenciario;Exact
 Planejamento previdenciário;planejamento previdenciário;Phrase
+Planejamento previdenciário;planejamento previdenciário;Exact
 Planejamento previdenciário;planejamento aposentadoria inss;Phrase
-Planejamento previdenciário;consulta planejamento previdenciario;Phrase
+Planejamento previdenciário;planejamento aposentadoria inss;Exact
+Planejamento previdenciário;consulta planejamento aposentadoria;Phrase
+Planejamento previdenciário;consulta planejamento aposentadoria;Exact
+Planejamento previdenciário;consulta de planejamento previdenciario;Phrase
+Planejamento previdenciário;consulta de planejamento previdenciario;Exact
+Planejamento previdenciário;planejamento aposentadoria advogado;Phrase
+Planejamento previdenciário;planejamento aposentadoria advogado;Exact
 Contagem de tempo INSS;contagem de tempo inss;Phrase
 Contagem de tempo INSS;contagem de tempo inss;Exact
-Contagem de tempo INSS;calcular tempo de contribuição inss;Phrase
-Contagem de tempo INSS;calcular tempo de contribuicao inss;Phrase
+Contagem de tempo INSS;tempo de contribuição para aposentadoria;Phrase
+Contagem de tempo INSS;tempo de contribuicao para aposentadoria;Phrase
 Contagem de tempo INSS;análise de cnis;Phrase
+Contagem de tempo INSS;análise de cnis;Exact
 Contagem de tempo INSS;analise de cnis;Phrase
+Contagem de tempo INSS;analise de cnis;Exact
+Contagem de tempo INSS;consulta cnis aposentadoria;Phrase
+Contagem de tempo INSS;consulta cnis aposentadoria;Exact
 Prazo para aposentadoria;quanto falta para aposentar;Phrase
 Prazo para aposentadoria;quanto falta para aposentar;Exact
 Prazo para aposentadoria;quanto tempo falta para aposentar;Phrase
+Prazo para aposentadoria;quanto tempo falta para aposentar;Exact
 Prazo para aposentadoria;quando posso me aposentar pelo inss;Phrase
+Prazo para aposentadoria;quando posso me aposentar pelo inss;Exact
+Prazo para aposentadoria;melhor momento para aposentar;Phrase
+Prazo para aposentadoria;melhor momento para aposentar;Exact
+Prazo para aposentadoria;quando pedir aposentadoria inss;Phrase
+Prazo para aposentadoria;quando pedir aposentadoria inss;Exact
 Advogado previdenciário Jacareí SJC;advogado previdenciario jacarei;Phrase
 Advogado previdenciário Jacareí SJC;advogado previdenciario jacarei;Exact
 Advogado previdenciário Jacareí SJC;advogado previdenciário jacareí;Phrase
+Advogado previdenciário Jacareí SJC;advogado previdenciário jacareí;Exact
+Advogado previdenciário Jacareí SJC;advogado aposentadoria jacarei;Phrase
+Advogado previdenciário Jacareí SJC;advogado aposentadoria jacarei;Exact
 Advogado previdenciário Jacareí SJC;consulta previdenciaria jacarei;Phrase
+Advogado previdenciário Jacareí SJC;consulta previdenciaria jacarei;Exact
 Advogado previdenciário Jacareí SJC;advogado previdenciario sao jose dos campos;Phrase
+Advogado previdenciário Jacareí SJC;advogado previdenciario sao jose dos campos;Exact
 Advogado previdenciário Jacareí SJC;advogado previdenciário são josé dos campos;Phrase
+Advogado previdenciário Jacareí SJC;advogado aposentadoria sao jose dos campos;Phrase
+Advogado previdenciário Jacareí SJC;advogado aposentadoria sao jose dos campos;Exact
 Advogado previdenciário Jacareí SJC;consulta previdenciaria sao jose dos campos;Phrase
+Advogado previdenciário Jacareí SJC;consulta previdenciaria sao jose dos campos;Exact
 Advogado previdenciário Jacareí SJC;advogado previdenciario sjc;Phrase

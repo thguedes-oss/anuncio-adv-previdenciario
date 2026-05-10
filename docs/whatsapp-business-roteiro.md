@@ -2,23 +2,23 @@
 
 ## Mensagem automática inicial
 
-Olá. Obrigado pelo contato. Este canal faz a triagem inicial para preparar a consulta previdenciária. A orientação jurídica individual ocorre em consulta mediante agendamento, após análise das informações e documentos.
+Olá. Obrigado pelo contato. Este canal organiza o agendamento da consulta de planejamento de aposentadoria. A orientação jurídica individual ocorre em consulta mediante agendamento, após análise das informações e documentos.
 
-Para iniciar, envie:
+Para agilizar o atendimento, envie:
 
 1. Nome completo
 2. Idade
-3. Objetivo: saber quando aposentar, quanto falta, revisar CNIS ou outro
+3. Objetivo: planejar aposentadoria, saber quanto falta ou revisar CNIS
 4. Se possui CNIS atualizado
 5. Se já fez pedido no INSS
 
-Com essas informações, o escritório indica os documentos iniciais para preparar a consulta.
+Com essas informações, o escritório orienta os documentos necessários e organiza o agendamento.
 
 ## Respostas rápidas sugeridas
 
 ### Caso adequado
 
-Obrigado pelas informações. O próximo passo é separar os documentos para a consulta previdenciária. Com eles em mãos, o escritório organiza o agendamento para análise individual.
+Obrigado pelas informações. O próximo passo é organizar o agendamento da consulta e separar os documentos para análise individual.
 
 ### Falta CNIS
 
@@ -26,7 +26,7 @@ O CNIS atualizado costuma ser um documento importante para a consulta. Se tiver 
 
 ### Busca apenas informação gratuita
 
-Entendo. Este canal não substitui consulta jurídica individual. Para evitar orientação incompleta, casos concretos são tratados em consulta mediante agendamento.
+Entendo. Este canal não substitui consulta jurídica individual. Casos concretos são tratados em consulta mediante agendamento.
 
 ### Fora do foco da campanha
 

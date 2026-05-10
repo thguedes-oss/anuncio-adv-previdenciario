@@ -4,8 +4,8 @@ const OFFICE = {
   lawyerName: "Dr. Thiago Tomizawa"
 };
 
-const triageMessage = [
-  "Olá, gostaria de fazer a triagem para uma consulta de planejamento de aposentadoria."
+const whatsappMessage = [
+  "Olá, gostaria de agendar uma consulta de planejamento de aposentadoria pelo INSS."
 ].join("\n");
 
 function getGoogleAdsConfig() {
@@ -64,7 +64,7 @@ function reportGoogleAdsConversion(conversionName) {
 }
 
 function buildWhatsAppUrl() {
-  return `https://wa.me/${OFFICE.whatsappNumber}?text=${encodeURIComponent(triageMessage)}`;
+  return `https://wa.me/${OFFICE.whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 }
 
 function trackEvent(eventName) {

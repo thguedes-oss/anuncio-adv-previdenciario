@@ -3,8 +3,9 @@ Campanha;INSS Planejamento Jacarei SJC
 Status inicial;Pausada
 Tipo;Rede de Pesquisa
 Orçamento diário;R$ 25
-Meta;Leads qualificados para consulta previdenciária
-Lance inicial;Maximizar cliques com limite de CPC
+Meta;Agendamentos qualificados para consulta de planejamento de aposentadoria
+Perfil prioritário;Pessoas próximas da aposentadoria, em regra 50+
+Lance inicial;Maximizar cliques com controle conservador de orçamento
 Redes;Pesquisa Google
 Parceiros de pesquisa;Desativado no primeiro teste
 Localização;Jacareí e São José dos Campos
