@@ -1,7 +1,7 @@
 window.GOOGLE_ADS_CONFIG = {
-  conversionId: "",
+  conversionId: "AW-587479057",
   conversionLabels: {
-    whatsapp: "",
-    phone: ""
+    whatsapp: "lR6ICPTq9qocEJHwkJgC",
+    phone: "31o9CPfq9qocEJHwkJgC"
   }
 };
