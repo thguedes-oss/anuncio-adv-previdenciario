@@ -1,8 +1,8 @@
-# WhatsApp Business - Roteiro Simples e Seguro
+# WhatsApp Business - Roteiro Simples E Seguro
 
-## Mensagem automatica inicial
+## Mensagem automática inicial
 
-Ola. Obrigado pelo contato. Este canal faz a triagem inicial para preparar a consulta previdenciaria. A orientacao juridica individual ocorre em consulta mediante agendamento, apos analise das informacoes e documentos.
+Olá. Obrigado pelo contato. Este canal faz a triagem inicial para preparar a consulta previdenciária. A orientação jurídica individual ocorre em consulta mediante agendamento, após análise das informações e documentos.
 
 Para iniciar, envie:
 
@@ -10,31 +10,31 @@ Para iniciar, envie:
 2. Idade
 3. Objetivo: saber quando aposentar, quanto falta, revisar CNIS ou outro
 4. Se possui CNIS atualizado
-5. Se ja fez pedido no INSS
+5. Se já fez pedido no INSS
 
-Com essas informacoes, o escritorio indica os documentos iniciais para preparar a consulta.
+Com essas informações, o escritório indica os documentos iniciais para preparar a consulta.
 
-## Respostas rapidas sugeridas
+## Respostas rápidas sugeridas
 
 ### Caso adequado
 
-Obrigado pelas informacoes. O proximo passo e separar os documentos para a consulta previdenciaria. Com eles em maos, o escritorio organiza o agendamento para analise individual.
+Obrigado pelas informações. O próximo passo é separar os documentos para a consulta previdenciária. Com eles em mãos, o escritório organiza o agendamento para análise individual.
 
 ### Falta CNIS
 
-O CNIS atualizado costuma ser um documento importante para a consulta. Se tiver dificuldade para obter o arquivo, informe isso no atendimento para receber orientacao sobre documentos alternativos ou complementares.
+O CNIS atualizado costuma ser um documento importante para a consulta. Se tiver dificuldade para obter o arquivo, informe isso no atendimento para receber orientação sobre documentos alternativos ou complementares.
 
-### Busca apenas informacao gratuita
+### Busca apenas informação gratuita
 
-Entendo. Este canal nao substitui consulta juridica individual. Para evitar orientacao incompleta, casos concretos sao tratados em consulta mediante agendamento.
+Entendo. Este canal não substitui consulta jurídica individual. Para evitar orientação incompleta, casos concretos são tratados em consulta mediante agendamento.
 
 ### Fora do foco da campanha
 
-Obrigado pelo contato. Neste canal, o foco inicial e planejamento previdenciario, contagem de tempo e aposentadoria pelo INSS. Se o assunto for outro, o escritorio avaliara a possibilidade de atendimento ou encaminhamento adequado.
+Obrigado pelo contato. Neste canal, o foco inicial é planejamento previdenciário, contagem de tempo e aposentadoria pelo INSS. Se o assunto for outro, o escritório avaliará a possibilidade de atendimento ou encaminhamento adequado.
 
-## Regras de seguranca
+## Regras de segurança
 
-- Nao afirmar direito a beneficio sem consulta e documentos.
-- Nao divulgar preco em anuncio publico.
-- Nao usar respostas automaticas para emitir parecer juridico.
-- Registrar origem do contato como `Google Ads - Planejamento Previdenciario`.
+- Não afirmar direito a benefício sem consulta e documentos.
+- Não divulgar preço em anúncio público.
+- Não usar respostas automáticas para emitir parecer jurídico.
+- Registrar origem do contato como `Google Ads - Planejamento Previdenciário`.

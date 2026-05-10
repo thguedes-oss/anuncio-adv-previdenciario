@@ -1,42 +1,42 @@
-# Anuncios Responsivos de Pesquisa
+# Anúncios Responsivos De Pesquisa
 
-Use os textos abaixo como banco inicial. Evite fixar muitos titulos; fixe apenas se a conta exigir conformidade em alguma posicao.
+Use os textos abaixo como banco inicial. A campanha deve permanecer pausada até a revisão final dentro do Google Ads.
 
-## Titulos
+## Títulos
 
-- Planejamento Previdenciario
+- Planejamento Previdenciário
 - Contagem de Tempo INSS
-- Consulta Previdenciaria
+- Consulta Previdenciária
 - Aposentadoria pelo INSS
-- Analise de CNIS
-- Advogado Previdenciario
-- Atendimento em Jacarei
-- Sao Jose dos Campos
+- Análise de CNIS
+- Advogado Previdenciário
+- Atendimento em Jacareí
+- São José dos Campos
 - Consulta Com Agendamento
 - Tempo Para Aposentar
-- Regras de Transicao INSS
-- Orientacao Previdenciaria
-- Historico de Contribuicao
+- Regras de Transição INSS
+- Orientação Previdenciária
+- Histórico de Contribuição
 - Documentos Para Aposentar
-- Direito Previdenciario
+- Direito Previdenciário
 
-## Descricoes
+## Descrições
 
-- Analise juridica do historico de contribuicao e documentos antes do pedido ao INSS.
-- Atendimento previdenciario mediante agendamento para planejamento de aposentadoria.
-- Envie dados basicos pelo WhatsApp e organize a triagem inicial do seu caso.
-- Pagina informativa. A orientacao individual depende de consulta e documentos.
+- Análise do CNIS, vínculos e contribuições para planejamento de aposentadoria pelo INSS.
+- Atendimento previdenciário mediante agendamento para quem deseja organizar o pedido ao INSS.
+- Triagem pelo WhatsApp para orientar os documentos necessários antes da consulta.
+- Planejamento de aposentadoria com foco em contagem de tempo e histórico contributivo.
 
-## Caminhos de exibicao
+## Caminhos de exibição
 
 - `planejamento`
 - `aposentadoria-inss`
 - `contagem-tempo`
-- `jacarei`
+- `jacarei-sjc`
 
 ## Cuidados de texto
 
-- Nao usar `gratis`, `desconto`, `garantido`, `melhor` ou comparacoes.
-- Nao mencionar valores ou forma de pagamento.
-- Nao prometer concessao de beneficio.
-- Preferir linguagem objetiva: `analise`, `orientacao`, `consulta`, `documentos`, `planejamento`.
+- Não usar `grátis`, `desconto`, `garantido`, `melhor` ou comparações.
+- Não mencionar valores ou forma de pagamento.
+- Não prometer concessão de benefício.
+- Preferir linguagem objetiva: `análise`, `orientação`, `consulta`, `documentos`, `planejamento`.

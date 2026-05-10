@@ -1,55 +1,57 @@
-# Plano de Campanha - Google Ads Pesquisa
+# Plano De Campanha - Google Ads Pesquisa
 
-## Configuracao inicial
+## Configuração inicial
 
 - Nome da campanha: `INSS Planejamento Jacarei SJC`
 - Tipo: Rede de Pesquisa
+- Status inicial: pausada
 - Redes: apenas Pesquisa Google; desativar parceiros de pesquisa no primeiro teste
-- Meta: leads qualificados para consulta previdenciaria mediante agendamento
-- Orcamento: `R$ 20 a R$ 40 por dia`
-- Lance inicial: maximizar cliques com limite de CPC enquanto as conversoes ainda nao tiverem historico; migrar para maximizar conversoes quando houver dados consistentes
-- Localizacao: pessoas em Jacarei e Sao Jose dos Campos; usar presenca na regiao, nao interesse pela regiao
-- Idioma: portugues
-- Horario sugerido: segunda a sexta, 8h as 19h; sabado, 8h as 12h
-- URL final: URL do GitHub Pages depois da publicacao
+- Meta: leads qualificados para consulta previdenciária mediante agendamento
+- Orçamento: `R$ 25 por dia`
+- Lance inicial: maximizar cliques com limite de CPC enquanto as conversões ainda não tiverem histórico; migrar para maximizar conversões quando houver dados consistentes
+- Localização: pessoas em Jacareí e São José dos Campos; usar presença na região, não interesse pela região
+- Idioma: português
+- Horário sugerido: segunda a sexta, 8h às 19h; sábado, 8h às 12h
+- URL final: `https://thguedes-oss.github.io/anuncio-adv-previdenciario/`
 
-## Grupos de anuncios
+## Grupos de anúncios
 
-1. `Planejamento previdenciario`
+1. `Planejamento previdenciário`
 2. `Contagem de tempo INSS`
-3. `Quanto falta para aposentar`
-4. `Advogado previdenciario Jacarei`
+3. `Prazo para aposentadoria`
+4. `Advogado previdenciário Jacareí SJC`
 
 ## Recursos recomendados
 
-- Recurso de chamada: telefone do escritorio
+- Recurso de chamada: telefone do escritório
 - Recurso de local: Perfil da Empresa vinculado ao Google Ads
 - Sitelinks:
   - `Contagem de tempo`
   - `Planejamento de aposentadoria`
-  - `Documentos para analise`
-  - `Atendimento em Jacarei`
+  - `Documentos para análise`
+  - `Atendimento em Jacareí`
 - Frases de destaque:
   - `Consulta mediante agendamento`
-  - `Analise individual do historico`
-  - `Jacarei e Sao Jose dos Campos`
+  - `Análise individual do histórico`
+  - `Jacareí e São José dos Campos`
   - `Direito Previdenciario INSS`
 - Snippet estruturado:
-  - Cabecalho: `Servicos`
-  - Valores: `Planejamento previdenciario, Contagem de tempo, Analise de CNIS, Aposentadoria INSS`
+  - Cabeçalho: `Serviços`
+  - Valores: `Planejamento previdenciário, Contagem de tempo, Análise de CNIS, Aposentadoria INSS`
 
-## Rotina de otimizacao
+## Rotina de otimização
 
-- Dia 1: publicar campanha com conversoes de clique em WhatsApp e telefone.
-- Dias 3 a 7: verificar termos pesquisados e adicionar negativas obvias.
+- Antes de ativar: confirmar faturamento, conversões, localização e negativas.
+- Dia 1: ativar campanha somente após revisão final.
+- Dias 3 a 7: verificar termos pesquisados e adicionar negativas óbvias.
 - Dia 14: revisar termos, custo por lead, conversas iniciadas e leads realmente qualificados.
-- Dia 30: decidir se mantem, pausa ou aumenta verba com base em custo por lead qualificado.
+- Dia 30: decidir se mantém, pausa ou aumenta verba com base em custo por lead qualificado.
 
-## Nao usar no primeiro teste
+## Não usar no primeiro teste
 
 - Performance Max
 - Display
 - YouTube
 - Remarketing
 - Listas de clientes
-- Texto com gratuidade, desconto, preco ou comparacao profissional
+- Texto com gratuidade, desconto, preço ou comparação profissional

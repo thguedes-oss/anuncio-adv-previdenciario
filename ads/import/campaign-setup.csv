@@ -1,13 +1,14 @@
 Item;Valor
 Campanha;INSS Planejamento Jacarei SJC
+Status inicial;Pausada
 Tipo;Rede de Pesquisa
-Orcamento diario;R$ 20 a R$ 40
-Meta;Leads qualificados para consulta previdenciaria
+Orçamento diário;R$ 25
+Meta;Leads qualificados para consulta previdenciária
 Lance inicial;Maximizar cliques com limite de CPC
 Redes;Pesquisa Google
 Parceiros de pesquisa;Desativado no primeiro teste
-Localizacao;Jacarei e Sao Jose dos Campos
-Opcao de localizacao;Presenca na regiao
-Idioma;Portugues
-URL final;Substituir pela URL do GitHub Pages
-Horario;Seg-Sex 08:00-19:00, Sab 08:00-12:00
+Localização;Jacareí e São José dos Campos
+Opção de localização;Presença na região
+Idioma;Português
+URL final;https://thguedes-oss.github.io/anuncio-adv-previdenciario/
+Horário;Seg-Sex 08:00-19:00, Sab 08:00-12:00

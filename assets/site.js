@@ -8,6 +8,61 @@ const triageMessage = [
   "Olá, gostaria de fazer a triagem para uma consulta de planejamento de aposentadoria."
 ].join("\n");
 
+function getGoogleAdsConfig() {
+  return window.GOOGLE_ADS_CONFIG || {};
+}
+
+function getGoogleAdsConversion(conversionName) {
+  const config = getGoogleAdsConfig();
+  const conversionId = (config.conversionId || "").trim();
+  const label = (config.conversionLabels?.[conversionName] || "").trim();
+
+  if (!conversionId || !label) {
+    return null;
+  }
+
+  return `${conversionId}/${label}`;
+}
+
+function loadGoogleAdsTag() {
+  const config = getGoogleAdsConfig();
+  const conversionId = (config.conversionId || "").trim();
+
+  if (!conversionId) {
+    return;
+  }
+
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function gtag() {
+    window.dataLayer.push(arguments);
+  };
+
+  if (!document.querySelector(`[data-google-ads-tag="${conversionId}"]`)) {
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(conversionId)}`;
+    script.setAttribute("data-google-ads-tag", conversionId);
+    document.head.appendChild(script);
+  }
+
+  window.gtag("js", new Date());
+  window.gtag("config", conversionId);
+}
+
+function reportGoogleAdsConversion(conversionName) {
+  const sendTo = getGoogleAdsConversion(conversionName);
+
+  if (!sendTo || typeof window.gtag !== "function") {
+    return;
+  }
+
+  window.gtag("event", "conversion", {
+    send_to: sendTo,
+    event_category: "lead",
+    event_label: conversionName
+  });
+}
+
 function buildWhatsAppUrl() {
   return `https://wa.me/${OFFICE.whatsappNumber}?text=${encodeURIComponent(triageMessage)}`;
 }
@@ -28,7 +83,13 @@ function wireTracking() {
   });
 
   document.querySelectorAll("[data-event]").forEach((element) => {
-    element.addEventListener("click", () => trackEvent(element.dataset.event));
+    element.addEventListener("click", () => {
+      trackEvent(element.dataset.event);
+
+      if (element.dataset.conversion) {
+        reportGoogleAdsConversion(element.dataset.conversion);
+      }
+    });
   });
 }
 
@@ -47,6 +108,7 @@ function wireMobileAction() {
 }
 
 window.addEventListener("DOMContentLoaded", () => {
+  loadGoogleAdsTag();
   wireTracking();
   wireMobileAction();
 });

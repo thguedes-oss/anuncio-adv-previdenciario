@@ -1,3 +1,4 @@
+grátis
 gratis
 gratuito
 gratuita
@@ -6,28 +7,31 @@ pdf
 curso
 concurso
 vagas
+salário
 salario
 tabela
 telefone do inss
 telefone inss
 meu inss
-agencia inss
 agência inss
+agencia inss
 gov.br
+simulador grátis
 simulador gratis
 simulador gratuito
+calculadora grátis
 calculadora gratis
 calculadora gratuita
 apostila
 faculdade
-estagio
 estágio
+estagio
 emprego
-pericia medica inss
 perícia médica inss
-numero do inss
+pericia medica inss
 número do inss
+numero do inss
+benefício bloqueado telefone
 beneficio bloqueado telefone
 entrar no meu inss
 login meu inss
-

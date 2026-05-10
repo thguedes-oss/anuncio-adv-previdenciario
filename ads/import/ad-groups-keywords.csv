@@ -1,18 +1,24 @@
 Ad group;Keyword;Match type
-Planejamento previdenciario;planejamento previdenciario;Phrase
-Planejamento previdenciario;planejamento previdenciario;Exact
-Planejamento previdenciario;planejamento aposentadoria inss;Phrase
-Planejamento previdenciario;consulta planejamento previdenciario;Phrase
+Planejamento previdenciário;planejamento previdenciario;Phrase
+Planejamento previdenciário;planejamento previdenciario;Exact
+Planejamento previdenciário;planejamento previdenciário;Phrase
+Planejamento previdenciário;planejamento aposentadoria inss;Phrase
+Planejamento previdenciário;consulta planejamento previdenciario;Phrase
 Contagem de tempo INSS;contagem de tempo inss;Phrase
 Contagem de tempo INSS;contagem de tempo inss;Exact
+Contagem de tempo INSS;calcular tempo de contribuição inss;Phrase
 Contagem de tempo INSS;calcular tempo de contribuicao inss;Phrase
+Contagem de tempo INSS;análise de cnis;Phrase
 Contagem de tempo INSS;analise de cnis;Phrase
-Quanto falta para aposentar;quanto falta para aposentar;Phrase
-Quanto falta para aposentar;quanto falta para aposentar;Exact
-Quanto falta para aposentar;quanto tempo falta para aposentar;Phrase
-Quanto falta para aposentar;quando posso me aposentar pelo inss;Phrase
-Advogado previdenciario Jacarei;advogado previdenciario jacarei;Phrase
-Advogado previdenciario Jacarei;advogado previdenciario jacarei;Exact
-Advogado previdenciario Jacarei;advogado aposentadoria jacarei;Phrase
-Advogado previdenciario Jacarei;consulta previdenciaria jacarei;Phrase
-
+Prazo para aposentadoria;quanto falta para aposentar;Phrase
+Prazo para aposentadoria;quanto falta para aposentar;Exact
+Prazo para aposentadoria;quanto tempo falta para aposentar;Phrase
+Prazo para aposentadoria;quando posso me aposentar pelo inss;Phrase
+Advogado previdenciário Jacareí SJC;advogado previdenciario jacarei;Phrase
+Advogado previdenciário Jacareí SJC;advogado previdenciario jacarei;Exact
+Advogado previdenciário Jacareí SJC;advogado previdenciário jacareí;Phrase
+Advogado previdenciário Jacareí SJC;consulta previdenciaria jacarei;Phrase
+Advogado previdenciário Jacareí SJC;advogado previdenciario sao jose dos campos;Phrase
+Advogado previdenciário Jacareí SJC;advogado previdenciário são josé dos campos;Phrase
+Advogado previdenciário Jacareí SJC;consulta previdenciaria sao jose dos campos;Phrase
+Advogado previdenciário Jacareí SJC;advogado previdenciario sjc;Phrase

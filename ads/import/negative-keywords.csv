@@ -1,4 +1,5 @@
 Negative keyword;Match type
+grátis;Broad
 gratis;Broad
 gratuito;Broad
 gratuita;Broad
@@ -7,24 +8,26 @@ pdf;Broad
 curso;Broad
 concurso;Broad
 vagas;Broad
+salário;Broad
 salario;Broad
 telefone do inss;Phrase
 telefone inss;Phrase
 meu inss;Phrase
-agencia inss;Phrase
 agência inss;Phrase
+agencia inss;Phrase
 gov.br;Broad
+simulador grátis;Phrase
 simulador gratis;Phrase
 simulador gratuito;Phrase
+calculadora grátis;Phrase
 calculadora gratis;Phrase
 calculadora gratuita;Phrase
 apostila;Broad
 faculdade;Broad
-estagio;Broad
 estágio;Broad
+estagio;Broad
 emprego;Broad
-pericia medica inss;Phrase
 perícia médica inss;Phrase
+pericia medica inss;Phrase
 entrar no meu inss;Phrase
 login meu inss;Phrase
-

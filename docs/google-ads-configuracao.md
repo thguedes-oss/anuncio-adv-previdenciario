@@ -1,30 +1,52 @@
-# Configuracao do Google Ads
+# Configuração Do Google Ads
 
-## Etapa 1 - Conversoes
+## Etapa 1 - Faturamento
 
-Crie conversoes antes ou no mesmo dia da publicacao:
+- Concluir a forma de pagamento na conta Google Ads.
+- Não ativar a campanha ainda.
+- Manter a primeira campanha em modo pausado até a revisão final.
+
+## Etapa 2 - Conversões
+
+Crie conversões antes da campanha:
 
 - `Clique WhatsApp - Landing Page`
 - `Clique Telefone - Landing Page`
-- `Chamada do anuncio`
-- `Lead qualificado - Importacao manual` quando houver controle em planilha ou CRM
+- `Chamada do anúncio`
+- `Lead qualificado - Importação manual` quando houver controle em planilha ou CRM
 
-No primeiro mes, a principal decisao deve olhar `lead qualificado`, nao apenas clique ou conversa iniciada.
+No primeiro mês, a principal decisão deve olhar `lead qualificado`, não apenas clique ou conversa iniciada.
 
-## Etapa 2 - Campanha
+Depois de criar as conversões de site, copie o `AW-XXXXXXXXXX` e os rótulos de conversão para `assets/google-ads-config.js`:
+
+```js
+window.GOOGLE_ADS_CONFIG = {
+  conversionId: "AW-XXXXXXXXXX",
+  conversionLabels: {
+    whatsapp: "ROTULO_DO_WHATSAPP",
+    phone: "ROTULO_DO_TELEFONE"
+  }
+};
+```
+
+Enquanto esses campos estiverem vazios, a landing continua funcionando normalmente, mas sem disparar conversões do Google Ads.
+
+## Etapa 3 - Campanha Pausada
 
 - Criar campanha de Pesquisa.
 - Usar somente a Rede de Pesquisa.
 - Desativar Display e Performance Max no primeiro teste.
-- Definir localizacao como presenca em Jacarei e Sao Jose dos Campos.
+- Definir localização como presença em Jacareí e São José dos Campos.
 - Aplicar palavras negativas antes de publicar.
-- Criar os quatro grupos de anuncio definidos em `ads/google-ads-search-plan.md`.
+- Criar os quatro grupos de anúncio definidos em `ads/google-ads-search-plan.md`.
+- Status inicial: pausada.
+- Orçamento inicial para ativação futura: `R$ 25/dia`.
 
-## Etapa 3 - Perfil da Empresa
+## Etapa 4 - Perfil da Empresa
 
-Vincule o Perfil da Empresa ao Google Ads para usar recursos de local. Isso ajuda a mostrar endereco, mapa e distancia quando o anuncio permitir.
+Vincule o Perfil da Empresa ao Google Ads para usar recursos de local. Isso ajuda a mostrar endereço, mapa e distância quando o anúncio permitir.
 
-## Etapa 4 - Acompanhamento semanal
+## Etapa 5 - Acompanhamento semanal
 
 Toda semana, registrar:
 
@@ -37,9 +59,9 @@ Toda semana, registrar:
 - Motivo de descarte
 - Ajustes de negativas
 
-## Etapa 5 - Decisao em 30 dias
+## Etapa 6 - Decisão em 30 dias
 
-- Manter: se houver leads qualificados com custo aceitavel.
-- Ajustar: se houver cliques, mas baixa qualificacao.
-- Pausar: se os termos estiverem ruins mesmo apos negativas.
+- Manter: se houver leads qualificados com custo aceitável.
+- Ajustar: se houver cliques, mas baixa qualificação.
+- Pausar: se os termos estiverem ruins mesmo após negativas.
 - Aumentar verba: somente se o custo por lead qualificado justificar.

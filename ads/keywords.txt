@@ -1,6 +1,8 @@
-# Planejamento previdenciario
+# Planejamento previdenciário
 "planejamento previdenciario"
 [planejamento previdenciario]
+"planejamento previdenciário"
+[planejamento previdenciário]
 "planejamento aposentadoria inss"
 [planejamento aposentadoria inss]
 "consulta planejamento previdenciario"
@@ -11,30 +13,49 @@
 # Contagem de tempo INSS
 "contagem de tempo inss"
 [contagem de tempo inss]
+"calcular tempo de contribuição inss"
+[calcular tempo de contribuição inss]
 "calcular tempo de contribuicao inss"
 [calcular tempo de contribuicao inss]
+"tempo de contribuição para aposentadoria"
+[tempo de contribuição para aposentadoria]
 "tempo de contribuicao para aposentadoria"
 [tempo de contribuicao para aposentadoria]
+"análise de cnis"
+[análise de cnis]
 "analise de cnis"
 [analise de cnis]
 
-# Quanto falta para aposentar
+# Prazo para aposentadoria
 "quanto falta para aposentar"
 [quanto falta para aposentar]
 "quanto tempo falta para aposentar"
 [quanto tempo falta para aposentar]
 "quando posso me aposentar pelo inss"
 [quando posso me aposentar pelo inss]
+"regras de transição aposentadoria"
+[regras de transição aposentadoria]
 "regras de transicao aposentadoria"
 [regras de transicao aposentadoria]
 
-# Advogado previdenciario Jacarei
+# Advogado previdenciário Jacareí e SJC
 "advogado previdenciario jacarei"
 [advogado previdenciario jacarei]
+"advogado previdenciário jacareí"
+[advogado previdenciário jacareí]
 "advogado aposentadoria jacarei"
 [advogado aposentadoria jacarei]
 "advogado inss jacarei"
 [advogado inss jacarei]
 "consulta previdenciaria jacarei"
 [consulta previdenciaria jacarei]
-
+"advogado previdenciario sao jose dos campos"
+[advogado previdenciario sao jose dos campos]
+"advogado previdenciário são josé dos campos"
+[advogado previdenciário são josé dos campos]
+"advogado aposentadoria sao jose dos campos"
+[advogado aposentadoria sao jose dos campos]
+"consulta previdenciaria sao jose dos campos"
+[consulta previdenciaria sao jose dos campos]
+"advogado previdenciario sjc"
+[advogado previdenciario sjc]
