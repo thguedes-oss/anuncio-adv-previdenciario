@@ -40,7 +40,7 @@ Enquanto esses campos estiverem vazios, a landing continua funcionando normalmen
 - Aplicar palavras negativas antes de publicar.
 - Criar os quatro grupos de anúncio definidos em `ads/google-ads-search-plan.md`.
 - Status inicial: pausada.
-- Orçamento inicial para ativação futura: `R$ 25/dia`.
+- Orçamento inicial para ativação futura: `R$ 10/dia`.
 
 ## Etapa 4 - Perfil da Empresa
 

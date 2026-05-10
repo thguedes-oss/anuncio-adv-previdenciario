@@ -19,5 +19,5 @@
 - [ ] Inserir negativas.
 - [ ] Vincular Perfil da Empresa.
 - [ ] Revisar campanha antes de ativar.
-- [ ] Ativar campanha com orçamento diário controlado.
+- [ ] Ativar campanha com orçamento diário de teste (`R$ 10/dia`) após confirmação final.
 - [ ] Revisar termos pesquisados após os primeiros dias.

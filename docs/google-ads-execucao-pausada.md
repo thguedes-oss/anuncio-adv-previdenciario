@@ -23,7 +23,7 @@
 - Nome: `INSS Planejamento Jacarei SJC`
 - Tipo: Pesquisa
 - Status inicial: pausada
-- Orçamento: `R$ 25/dia`
+- Orçamento: `R$ 10/dia`
 - Redes: somente Pesquisa Google
 - Display: desativado
 - Performance Max: não usar no primeiro teste

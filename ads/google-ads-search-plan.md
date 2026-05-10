@@ -7,7 +7,7 @@
 - Status inicial: pausada
 - Redes: apenas Pesquisa Google; desativar parceiros de pesquisa no primeiro teste
 - Meta: agendamentos de consulta particular para planejamento de aposentadoria, com foco em pessoas 55+ próximas de se aposentar
-- Orçamento: `R$ 25 por dia`
+- Orçamento de teste: `R$ 10 por dia`
 - Lance inicial: maximizar cliques com controle conservador de orçamento enquanto as conversões ainda não tiverem histórico; migrar para maximizar conversões quando houver dados consistentes
 - Localização: pessoas em Jacareí e São José dos Campos; usar presença na região, não interesse pela região
 - Demografia: manter apenas `55 a 64` e `65 ou mais`; excluir faixas abaixo de 55 e `Desconhecida`
@@ -51,14 +51,15 @@
 ## Rotina de otimização
 
 - Antes de ativar: confirmar faturamento, conversões, localização e negativas.
-- Dia 1: ativar campanha somente após revisão final.
-- Dias 3 a 7: verificar termos pesquisados e adicionar negativas óbvias.
+- Dia 1: ativar campanha somente após revisão final explícita.
+- Dias 1 a 3: verificar termos pesquisados, cliques e contatos para adicionar negativas óbvias.
 - Dia 14: revisar termos, custo por lead, conversas iniciadas e leads realmente qualificados.
 - Dia 30: decidir se mantém, pausa ou aumenta verba com base em custo por lead qualificado.
 
 ## Critério comercial da primeira fase
 
 - Otimizar por lead qualificado, não por volume de WhatsApp.
+- No primeiro teste, limitar a leitura inicial a 3 dias ou cerca de `R$ 30` de gasto.
 - Se muitos contatos pedirem informação genérica, reforçar negativas e texto de consulta profissional.
 - Se poucos contatos chegarem, ampliar termos com cautela antes de aumentar orçamento.
 

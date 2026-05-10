@@ -2,7 +2,7 @@ const OLD_CAMPAIGN_NAME = "[S] - Leads - Previdenciario";
 const OLD_CAMPAIGN_NAME_ACCENTED = "[S] - Leads - Previdenci\u00e1rio";
 const CAMPAIGN_NAME = "INSS Planejamento Jacarei SJC";
 const FINAL_URL = "https://thguedes-oss.github.io/anuncio-adv-previdenciario/";
-const DAILY_BUDGET = 25;
+const DAILY_BUDGET = 10;
 const API_VERSION = "v24";
 
 const TARGET_LOCATION_IDS = [
