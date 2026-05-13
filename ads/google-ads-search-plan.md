@@ -26,7 +26,7 @@
 
 - Pessoa 55+ ou já efetivamente próxima da aposentadoria.
 - Busca saber quando pedir aposentadoria e quais possibilidades de benefício fazem sentido no histórico.
-- Aceita organizar CNIS, vínculos, carteira e documentos para consulta profissional.
+- Aceita organizar histórico de trabalho, carteira, documentos do INSS e comprovantes para consulta profissional.
 - Não busca apenas simulador, telefone do INSS, modelo, PDF, curso, gratuidade ou informação genérica.
 
 ## Recursos recomendados
@@ -41,12 +41,12 @@
 - Frases de destaque:
   - `Consulta particular mediante agendamento`
   - `Planejamento de aposentadoria`
-  - `Análise de CNIS e vínculos`
+  - `Histórico de contribuição e vínculos`
   - `Jacareí e São José dos Campos`
   - `Contagem de tempo INSS`
 - Snippet estruturado:
   - Cabeçalho: `Serviços`
-  - Valores: `Planejamento previdenciário, Contagem de tempo, Análise de CNIS, Aposentadoria INSS`
+  - Valores: `Planejamento previdenciário, Contagem de tempo, Histórico de contribuição, Aposentadoria INSS`
 
 ## Rotina de otimização
 

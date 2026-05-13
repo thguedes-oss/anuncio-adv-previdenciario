@@ -8,24 +8,24 @@ Use os textos abaixo como banco revisado para leads 55+ e consulta particular. A
 - Contagem de Tempo INSS
 - Consulta Previdenciária
 - Consulta Particular INSS
-- Análise de CNIS
+- Tempo de Contribuição
 - Consulta Para Aposentadoria
 - Atendimento em Jacareí
 - São José dos Campos
 - Consulta Com Agendamento
 - Perto de Se Aposentar
 - Momento de Aposentar
-- Organize Seu CNIS
-- Histórico Contributivo
+- Organize Documentos
+- Histórico de Trabalho
 - Possibilidades De Benefício
 - Direito Previdenciário
 
 ## Descrições
 
-- Consulta particular para analisar CNIS, vínculos e tempo antes do pedido ao INSS.
+- Consulta particular para avaliar vínculos, documentos e tempo antes do pedido ao INSS.
 - Planejamento para estimar o momento adequado e possibilidades de benefício.
 - Atendimento mediante agendamento, com documentos organizados para análise.
-- Foco em trabalhador próximo da aposentadoria e histórico contributivo.
+- Foco em trabalhador próximo da aposentadoria e histórico de trabalho.
 
 ## Caminhos de exibição
 

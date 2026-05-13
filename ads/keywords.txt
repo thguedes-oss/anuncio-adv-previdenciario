@@ -15,6 +15,10 @@
 [consulta particular aposentadoria]
 "planejamento aposentadoria advogado"
 [planejamento aposentadoria advogado]
+"consulta para aposentadoria"
+[consulta para aposentadoria]
+"planejar aposentadoria inss"
+[planejar aposentadoria inss]
 
 # Contagem de tempo INSS
 "contagem de tempo inss"
@@ -25,16 +29,10 @@
 [tempo de contribuição para aposentadoria]
 "tempo de contribuicao para aposentadoria"
 [tempo de contribuicao para aposentadoria]
-"análise de cnis"
-[análise de cnis]
-"analise de cnis"
-[analise de cnis]
-"análise cnis aposentadoria"
-[análise cnis aposentadoria]
-"analise cnis aposentadoria"
-[analise cnis aposentadoria]
-"consulta cnis aposentadoria"
-[consulta cnis aposentadoria]
+"aposentadoria tempo de contribuição"
+[aposentadoria tempo de contribuição]
+"aposentadoria tempo de contribuicao"
+[aposentadoria tempo de contribuicao]
 
 # Prazo para aposentadoria
 "quanto falta para aposentar"
@@ -43,10 +41,14 @@
 [quanto tempo falta para aposentar]
 "melhor momento para aposentar"
 [melhor momento para aposentar]
+"melhor momento para aposentadoria"
+[melhor momento para aposentadoria]
 "quando pedir aposentadoria inss"
 [quando pedir aposentadoria inss]
 "planejar pedido de aposentadoria"
 [planejar pedido de aposentadoria]
+"saber quando aposentar"
+[saber quando aposentar]
 
 # Advogado previdenciário Jacareí e SJC
 "advogado previdenciario jacarei"

@@ -15,24 +15,24 @@ const HEADLINES = [
   "Contagem de Tempo INSS",
   "Consulta Previdenci\u00e1ria",
   "Consulta Particular INSS",
-  "An\u00e1lise de CNIS",
+  "Tempo de Contribui\u00e7\u00e3o",
   "Consulta Para Aposentadoria",
   "Atendimento em Jacare\u00ed",
   "S\u00e3o Jos\u00e9 dos Campos",
   "Consulta Com Agendamento",
   "Perto de Se Aposentar",
   "Momento de Aposentar",
-  "Organize Seu CNIS",
-  "Hist\u00f3rico Contributivo",
+  "Organize Documentos",
+  "Hist\u00f3rico de Trabalho",
   "Possibilidades De Benef\u00edcio",
   "Direito Previdenci\u00e1rio"
 ];
 
 const DESCRIPTIONS = [
-  "Consulta particular para analisar CNIS, v\u00ednculos e tempo antes do pedido ao INSS.",
+  "Consulta particular para avaliar v\u00ednculos, documentos e tempo antes do pedido ao INSS.",
   "Planejamento para estimar o momento adequado e possibilidades de benef\u00edcio.",
   "Atendimento mediante agendamento, com documentos organizados para an\u00e1lise.",
-  "Foco em trabalhador pr\u00f3ximo da aposentadoria e hist\u00f3rico contributivo."
+  "Foco em trabalhador pr\u00f3ximo da aposentadoria e hist\u00f3rico de trabalho."
 ];
 
 const EXCLUDED_AGE_RANGES = [
@@ -67,7 +67,11 @@ const AD_GROUPS = [
       '"consulta particular aposentadoria"',
       '[consulta particular aposentadoria]',
       '"planejamento aposentadoria advogado"',
-      '[planejamento aposentadoria advogado]'
+      '[planejamento aposentadoria advogado]',
+      '"consulta para aposentadoria"',
+      '[consulta para aposentadoria]',
+      '"planejar aposentadoria inss"',
+      '[planejar aposentadoria inss]'
     ]
   },
   {
@@ -79,16 +83,10 @@ const AD_GROUPS = [
       '[contagem de tempo inss advogado]',
       '"tempo de contribui\u00e7\u00e3o para aposentadoria"',
       '"tempo de contribuicao para aposentadoria"',
-      '"an\u00e1lise de cnis"',
-      '[an\u00e1lise de cnis]',
-      '"analise de cnis"',
-      '[analise de cnis]',
-      '"an\u00e1lise cnis aposentadoria"',
-      '[an\u00e1lise cnis aposentadoria]',
-      '"analise cnis aposentadoria"',
-      '[analise cnis aposentadoria]',
-      '"consulta cnis aposentadoria"',
-      '[consulta cnis aposentadoria]'
+      '"aposentadoria tempo de contribui\u00e7\u00e3o"',
+      '[aposentadoria tempo de contribui\u00e7\u00e3o]',
+      '"aposentadoria tempo de contribuicao"',
+      '[aposentadoria tempo de contribuicao]'
     ]
   },
   {
@@ -100,10 +98,14 @@ const AD_GROUPS = [
       '[quanto tempo falta para aposentar]',
       '"melhor momento para aposentar"',
       '[melhor momento para aposentar]',
+      '"melhor momento para aposentadoria"',
+      '[melhor momento para aposentadoria]',
       '"quando pedir aposentadoria inss"',
       '[quando pedir aposentadoria inss]',
       '"planejar pedido de aposentadoria"',
-      '[planejar pedido de aposentadoria]'
+      '[planejar pedido de aposentadoria]',
+      '"saber quando aposentar"',
+      '[saber quando aposentar]'
     ]
   },
   {

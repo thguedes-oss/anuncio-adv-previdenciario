@@ -8,8 +8,8 @@ Para agilizar o atendimento, envie:
 
 1. Nome completo
 2. Idade
-3. Objetivo: planejar aposentadoria, saber quando pedir o benefício ou revisar CNIS
-4. Se possui CNIS atualizado
+3. Objetivo: planejar aposentadoria ou saber quando pedir o benefício
+4. Se possui documentos do INSS, carteira de trabalho ou extrato previdenciário
 5. Se já fez pedido no INSS
 
 Com essas informações, o escritório orienta os documentos necessários e organiza o agendamento da consulta particular.
@@ -20,9 +20,9 @@ Com essas informações, o escritório orienta os documentos necessários e orga
 
 Obrigado pelas informações. O próximo passo é organizar o agendamento da consulta particular e separar os documentos para análise individual.
 
-### Falta CNIS
+### Falta documento do INSS
 
-O CNIS atualizado costuma ser um documento importante para a consulta. Se tiver dificuldade para obter o arquivo, informe isso no atendimento para receber orientação sobre documentos alternativos ou complementares.
+O extrato previdenciário e os documentos do INSS costumam ser importantes para a consulta. Se tiver dificuldade para obter algum arquivo, informe isso no atendimento para receber orientação sobre documentos alternativos ou complementares.
 
 ### Busca apenas informação gratuita
 
