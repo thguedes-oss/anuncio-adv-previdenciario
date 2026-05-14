@@ -161,14 +161,14 @@
         <div class="wrap triage-grid">
           <div class="triage-copy">
             <p class="eyebrow">Mini triagem</p>
-            <h2>Envie os dados básicos para preparar a consulta</h2>
+            <h2>Envie poucos dados para preparar a consulta</h2>
             <p>
-              A triagem organiza o primeiro contato e gera uma mensagem estruturada no WhatsApp. A orientação individual ocorre na consulta particular.
+              Responda apenas o que souber. Se tiver dúvida, escolha &ldquo;Não sei&rdquo;.
             </p>
             <ul class="check-list compact">
-              <li>Confirma se o objetivo é planejamento de aposentadoria.</li>
+              <li>Ajuda a entender o objetivo principal.</li>
               <li>Indica quais documentos separar antes da consulta.</li>
-              <li>Ajuda a evitar mensagens sem contexto ou fora do foco.</li>
+              <li>O atendimento jurídico ocorre na consulta particular.</li>
             </ul>
           </div>
           <form class="triage-card" id="triage-form" aria-label="Mini triagem para consulta de planejamento de aposentadoria">
@@ -177,45 +177,33 @@
               <input id="triage-name" type="text" name="name" autocomplete="name" required>
             </label>
             <label for="triage-age">
-              <span>Idade</span>
+              <span>Idade aproximada</span>
               <select id="triage-age" name="age" required>
-                <option value="">Selecione</option>
+                <option>Não sei</option>
+                <option>Ainda não tenho 55 anos</option>
                 <option>55 a 59 anos</option>
                 <option>60 a 64 anos</option>
                 <option>65 anos ou mais</option>
-                <option>Ainda não tenho 55 anos</option>
-              </select>
-            </label>
-            <label for="triage-work">
-              <span>Tipo de trabalho</span>
-              <select id="triage-work" name="work" required>
-                <option value="">Selecione</option>
-                <option>Carteira assinada</option>
-                <option>Autônomo ou contribuinte individual</option>
-                <option>Servidor público</option>
-                <option>Atividade rural</option>
-                <option>Atividade especial ou insalubre</option>
-                <option>Histórico misto</option>
               </select>
             </label>
             <label for="triage-objective">
-              <span>Objetivo</span>
+              <span>O que você quer saber sobre sua aposentadoria?</span>
               <select id="triage-objective" name="objective" required>
-                <option value="">Selecione</option>
+                <option>Não sei</option>
                 <option>Saber quando posso me aposentar</option>
-                <option>Avaliar o melhor momento do pedido</option>
-                <option>Conferir tempo de contribuição</option>
-                <option>Organizar documentos do INSS</option>
+                <option>Saber se já posso pedir aposentadoria</option>
+                <option>Planejar o melhor momento do pedido</option>
+                <option>Conferir meu tempo de contribuição</option>
                 <option>Já fiz pedido no INSS</option>
               </select>
             </label>
             <label for="triage-documents">
-              <span>Documentos disponíveis</span>
+              <span>Quais documentos você tem em mãos?</span>
               <select id="triage-documents" name="documents" required>
-                <option value="">Selecione</option>
-                <option>Tenho documentos do INSS ou extrato previdenciário</option>
+                <option>Não sei</option>
                 <option>Tenho carteira de trabalho</option>
-                <option>Tenho documentos e carteira</option>
+                <option>Tenho documentos do INSS</option>
+                <option>Tenho carteira e documentos do INSS</option>
                 <option>Ainda não separei documentos</option>
               </select>
             </label>

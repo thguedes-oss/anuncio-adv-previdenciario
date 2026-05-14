@@ -5,15 +5,14 @@ const OFFICE = {
 };
 
 const defaultWhatsappMessage = [
-  "Olá, gostaria de iniciar a triagem para uma consulta de planejamento de aposentadoria pelo INSS."
+  "Olá, gostaria de fazer uma triagem para consulta de planejamento de aposentadoria."
 ].join("\n");
 
 const TRIAGE_FIELDS = {
   name: "Nome",
-  age: "Idade",
-  work: "Tipo de trabalho",
-  objective: "Objetivo",
-  documents: "Documentos disponíveis",
+  age: "Idade aproximada",
+  objective: "O que deseja saber",
+  documents: "Documentos em mãos",
   contactTime: "Melhor horário para retorno"
 };
 
@@ -87,9 +86,9 @@ function trackEvent(eventName) {
 function buildTriageMessage(form) {
   const data = new FormData(form);
   const lines = [
-    "Olá, gostaria de iniciar a triagem para uma consulta de planejamento de aposentadoria pelo INSS.",
+    "Olá, gostaria de fazer uma triagem para consulta de planejamento de aposentadoria.",
     "",
-    "Dados para a triagem:"
+    "Dados que consegui informar:"
   ];
 
   Object.entries(TRIAGE_FIELDS).forEach(([field, label]) => {
@@ -100,7 +99,7 @@ function buildTriageMessage(form) {
   });
 
   lines.push("");
-  lines.push("Meu objetivo é receber orientação sobre os documentos necessários para preparar a consulta.");
+  lines.push("Gostaria de receber orientação sobre os documentos necessários para preparar a consulta.");
 
   return lines.join("\n");
 }
