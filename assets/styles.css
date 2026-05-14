@@ -715,6 +715,36 @@ h3 {
   margin-bottom: 2px;
 }
 
+.footer-middle {
+  display: grid;
+  gap: 18px;
+  max-width: 520px;
+}
+
+.footer-lawyer {
+  display: grid;
+  gap: 4px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer-lawyer strong {
+  color: var(--white);
+  font-size: 1.08rem;
+  line-height: 1.2;
+}
+
+.footer-lawyer span {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.footer-lawyer p {
+  max-width: 390px;
+  margin: 4px 0 0;
+  color: rgba(255, 255, 255, 0.68);
+  line-height: 1.45;
+}
+
 .footer-contact {
   display: grid;
   gap: 9px;
