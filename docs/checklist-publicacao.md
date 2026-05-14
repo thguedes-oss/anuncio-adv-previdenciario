@@ -11,14 +11,14 @@
 - [x] Testar envio da mini triagem para WhatsApp.
 - [x] Testar clique no telefone.
 - [x] Confirmar que as imagens em `assets/brand/` carregam corretamente.
-- [ ] Concluir faturamento da conta Google Ads.
+- [x] Concluir faturamento da conta Google Ads.
+- [x] Aplicar campanha v3 de Pesquisa em modo pausado: `INSS Diagnostico Aposentadoria Jacarei SJC v3`.
+- [x] Inserir palavras-chave.
+- [x] Inserir negativas.
+- [x] Revisar campanha antes de ativar.
 - [ ] Criar conversões no Google Ads: triagem enviada, WhatsApp e telefone.
 - [ ] Preencher `assets/google-ads-config.js` com ID e rótulos reais.
-- [ ] Criar campanha v3 de Pesquisa em modo pausado: `INSS Diagnostico Aposentadoria Jacarei SJC v3`.
-- [ ] Inserir palavras-chave.
-- [ ] Inserir negativas.
 - [ ] Vincular Perfil da Empresa.
-- [ ] Revisar campanha antes de ativar.
 - [ ] Ativar campanha v3 com orçamento diário de teste (`R$ 20/dia`) após confirmação final.
 - [ ] Se em 48h houver entrega muito baixa, revisar lance/status antes de ampliar região.
 - [ ] Revisar termos pesquisados após os primeiros dias.

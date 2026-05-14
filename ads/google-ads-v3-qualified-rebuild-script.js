@@ -1,4 +1,5 @@
-const OLD_CAMPAIGN_NAMES = [
+const CAMPAIGN_CANDIDATE_NAMES = [
+  "INSS Diagnostico Aposentadoria Jacarei SJC v3",
   "INSS Planejamento Jacarei SJC",
   "INSS Planejamento Aposentadoria 55+ v2",
   "[S] - Leads - Previdenciario",
@@ -172,189 +173,38 @@ const NEGATIVE_KEYWORDS = [
 
 const BROAD_NEGATIVES_TO_REMOVE = ["simulador"];
 
-let tempId = -1;
-
 function main() {
-  pauseOldCampaigns();
-
-  const existing = findCampaignByName(CAMPAIGN_NAME);
-  if (existing) {
-    refreshExistingCampaign(existing);
-    return;
-  }
-
-  createCampaignV3();
-}
-
-function createCampaignV3() {
-  const operations = [];
-  const budgetResource = resource("campaignBudgets", nextTempId());
-  const campaignResource = resource("campaigns", nextTempId());
-
-  operations.push({
-    campaignBudgetOperation: {
-      create: {
-        resourceName: budgetResource,
-        name: CAMPAIGN_NAME + " - budget",
-        amountMicros: String(DAILY_BUDGET * 1000000),
-        deliveryMethod: "STANDARD",
-        explicitlyShared: false
-      }
-    }
-  });
-
-  operations.push({
-    campaignOperation: {
-      create: {
-        resourceName: campaignResource,
-        name: CAMPAIGN_NAME,
-        status: "PAUSED",
-        advertisingChannelType: "SEARCH",
-        campaignBudget: budgetResource,
-        biddingStrategyType: "MANUAL_CPC",
-        manualCpc: {
-          enhancedCpcEnabled: true
-        },
-        networkSettings: {
-          targetGoogleSearch: true,
-          targetSearchNetwork: false,
-          targetContentNetwork: false,
-          targetPartnerSearchNetwork: false
-        },
-        geoTargetTypeSetting: {
-          positiveGeoTargetType: "PRESENCE",
-          negativeGeoTargetType: "PRESENCE_OR_INTEREST"
-        },
-        containsEuPoliticalAdvertising: "DOES_NOT_CONTAIN_EU_POLITICAL_ADVERTISING"
-      }
-    }
-  });
-
-  TARGET_LOCATION_IDS.forEach(function(locationId) {
-    operations.push({
-      campaignCriterionOperation: {
-        create: {
-          campaign: campaignResource,
-          location: {
-            geoTargetConstant: "geoTargetConstants/" + locationId
-          }
-        }
-      }
-    });
-  });
-
-  NEGATIVE_KEYWORDS.forEach(function(keyword) {
-    operations.push({
-      campaignCriterionOperation: {
-        create: {
-          campaign: campaignResource,
-          negative: true,
-          keyword: {
-            text: keyword.text,
-            matchType: keyword.matchType
-          }
-        }
-      }
-    });
-  });
-
-  AD_GROUPS.forEach(function(group) {
-    const adGroupResource = resource("adGroups", nextTempId());
-    operations.push({
-      adGroupOperation: {
-        create: {
-          resourceName: adGroupResource,
-          name: group.name,
-          campaign: campaignResource,
-          status: "ENABLED",
-          type: "SEARCH_STANDARD",
-          cpcBidMicros: String(group.cpcMicros)
-        }
-      }
-    });
-
-    group.keywords.forEach(function(keyword) {
-      operations.push({
-        adGroupCriterionOperation: {
-          create: {
-            adGroup: adGroupResource,
-            status: "ENABLED",
-            finalUrls: [FINAL_URL],
-            keyword: {
-              text: keyword.text,
-              matchType: keyword.matchType
-            }
-          }
-        }
-      });
-    });
-
-    EXCLUDED_AGE_RANGES.forEach(function(ageRange) {
-      operations.push({
-        adGroupCriterionOperation: {
-          create: {
-            adGroup: adGroupResource,
-            negative: true,
-            ageRange: {
-              type: ageRange
-            }
-          }
-        }
-      });
-    });
-
-    operations.push({
-      adGroupAdOperation: {
-        create: {
-          adGroup: adGroupResource,
-          status: "ENABLED",
-          ad: {
-            finalUrls: [FINAL_URL],
-            responsiveSearchAd: {
-              headlines: HEADLINES.map(function(text) {
-                return { text: text };
-              }),
-              descriptions: DESCRIPTIONS.map(function(text) {
-                return { text: text };
-              }),
-              path1: "aposentadoria",
-              path2: "diagnostico"
-            }
-          }
-        }
-      }
-    });
-  });
-
-  AdsApp.mutateAll(operations, {
-    apiVersion: API_VERSION,
-    partialFailure: false
-  });
-  Logger.log("Campanha v3 criada pausada: " + CAMPAIGN_NAME);
-  Logger.log("Or\u00e7amento: R$ " + DAILY_BUDGET + "/dia por 10 dias. Revise antes de ativar.");
-  Logger.log("Idade Desconhecida permanece aberta; apenas faixas abaixo de 55 foram exclu\u00eddas.");
+  const campaign = findCampaignForV3();
+  refreshExistingCampaign(campaign);
 }
 
 function refreshExistingCampaign(campaign) {
   campaign.pause();
+  if (campaign.getName() !== CAMPAIGN_NAME) {
+    Logger.log("Campanha existente usada como base da v3: " + campaign.getName());
+    campaign.setName(CAMPAIGN_NAME);
+  }
   campaign.getBudget().setAmount(DAILY_BUDGET);
   setLocations(campaign);
   removeUndesiredBroadNegatives(campaign);
   upsertCampaignNegatives(campaign);
   upsertAdGroups(campaign);
+  pauseDisallowedAdGroups(campaign);
   applyAgeFilter(campaign);
   campaign.pause();
-  Logger.log("Campanha v3 existente revisada e mantida pausada: " + campaign.getName());
+  Logger.log("Campanha v3 preparada e mantida pausada: " + campaign.getName());
+  Logger.log("Or\u00e7amento: R$ " + DAILY_BUDGET + "/dia por 10 dias, sem ativar veicula\u00e7\u00e3o.");
+  Logger.log("Idade Desconhecida permanece aberta; apenas faixas abaixo de 55 foram exclu\u00eddas.");
 }
 
-function pauseOldCampaigns() {
-  OLD_CAMPAIGN_NAMES.forEach(function(name) {
-    const campaign = findCampaignByName(name);
-    if (campaign && campaign.getName() !== CAMPAIGN_NAME) {
-      campaign.pause();
-      Logger.log("Campanha antiga pausada/preservada: " + campaign.getName());
+function findCampaignForV3() {
+  for (let i = 0; i < CAMPAIGN_CANDIDATE_NAMES.length; i++) {
+    const campaign = findCampaignByName(CAMPAIGN_CANDIDATE_NAMES[i]);
+    if (campaign) {
+      return campaign;
     }
-  });
+  }
+  throw new Error("Nenhuma campanha de pesquisa encontrada para preparar a v3.");
 }
 
 function findCampaignByName(name) {
@@ -399,7 +249,13 @@ function upsertAdGroups(campaign) {
     addKeywords(adGroup, group.keywords);
     addResponsiveSearchAdIfMissing(adGroup);
   });
+}
 
+function pauseDisallowedAdGroups(campaign) {
+  const allowed = {};
+  AD_GROUPS.forEach(function(group) {
+    allowed[group.name] = true;
+  });
   const iterator = campaign.adGroups().get();
   while (iterator.hasNext()) {
     const adGroup = iterator.next();
@@ -610,16 +466,4 @@ function formatKeyword(keyword) {
 
 function normalizeKeywordKey(text) {
   return String(text || "").trim().toLowerCase();
-}
-
-function resource(collection, id) {
-  return "customers/" + getCustomerId() + "/" + collection + "/" + id;
-}
-
-function getCustomerId() {
-  return AdsApp.currentAccount().getCustomerId().replace(/-/g, "");
-}
-
-function nextTempId() {
-  return tempId--;
 }

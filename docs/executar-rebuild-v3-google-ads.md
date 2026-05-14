@@ -4,18 +4,18 @@
 
 1. Abra Google Ads.
 2. Vá em `Ferramentas > Ações em massa > Scripts`.
-3. Crie um novo script chamado `REBUILD INSS DIAGNOSTICO APOSENTADORIA V3`.
+3. Use o script `REBUILD INSS DIAGNOSTICO APOSENTADORIA V3`.
 4. Cole o conteúdo de `ads/google-ads-v3-qualified-rebuild-script.js`.
 5. Clique primeiro em `Visualizar`.
 6. Revise se a prévia mostra:
-   - campanhas antigas pausadas;
-   - campanha `INSS Diagnostico Aposentadoria Jacarei SJC v3` criada pausada;
+   - campanha existente usada como base da v3;
+   - nome final `INSS Diagnostico Aposentadoria Jacarei SJC v3`;
+   - campanha mantida pausada;
    - orçamento de `R$ 20/dia`;
-   - Rede de Pesquisa, sem Display, sem parceiros e sem Performance Max;
    - locais Jacareí e São José dos Campos;
    - idade abaixo de 55 excluída, mantendo `55-64`, `65+` e `Desconhecida`;
-   - palavras em correspondência de frase/exata, sem ampla;
-   - negativas sem `simulador` amplo;
+   - palavras em correspondência de frase/exata;
+   - negativas contra buscas gratuitas, oficiais, cursos, PDFs e benefícios fora do foco;
    - anúncios sem preço, promessa, gratuidade ou comparação.
 7. Execute apenas se a prévia estiver coerente.
 

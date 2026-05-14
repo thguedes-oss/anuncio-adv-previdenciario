@@ -2,14 +2,14 @@
 
 ## Configuração
 
-- Campanha nova: `INSS Diagnostico Aposentadoria Jacarei SJC v3`
-- Campanhas antigas: pausar e preservar histórico, sem renomear
+- Campanha: `INSS Diagnostico Aposentadoria Jacarei SJC v3`
+- Base operacional: usar a campanha de Pesquisa existente quando a criação de campanha nova pelo script não for estável
 - Tipo: Rede de Pesquisa
 - Redes: somente Pesquisa Google; sem Display, sem parceiros e sem Performance Max
 - Orçamento: `R$ 20/dia` por 10 dias ou até cerca de `R$ 200`
 - Localização: presença em Jacareí e São José dos Campos
 - Idade: excluir abaixo de 55; manter `55-64`, `65+` e `Desconhecida`
-- Lance inicial: CPC manual com ECPC e lances suficientes para sair do quase zero
+- Lance inicial: maximizar cliques com controle de orçamento e revisão de termos reais
 - URL final: landing publicada com UTMs e ValueTrack
 
 ## Estrutura
@@ -41,5 +41,5 @@
 
 ## Scripts
 
-- `ads/google-ads-v3-qualified-rebuild-script.js`: cria a campanha v3 pausada, pausa campanhas antigas e mantém idade `Desconhecida` aberta.
+- `ads/google-ads-v3-qualified-rebuild-script.js`: prepara a v3 sobre a campanha existente, aplica grupos/palavras/negativas, mantém idade `Desconhecida` aberta e deixa a campanha pausada.
 - Scripts v2 permanecem no repositório apenas como histórico.
