@@ -1,6 +1,6 @@
 # Google Ads Previdenciário - Thiago Tomizawa
 
-Landing page e pacote operacional para a campanha inicial de Google Ads do escritório, com foco em planejamento previdenciário, contagem de tempo de contribuição e consulta mediante agendamento.
+Landing page e pacote operacional para a campanha de Google Ads do escritório, com foco em planejamento de aposentadoria, tempo de contribuição e consulta mediante agendamento.
 
 URL publicada: https://thguedes-oss.github.io/anuncio-adv-previdenciario/
 
@@ -10,8 +10,8 @@ URL publicada: https://thguedes-oss.github.io/anuncio-adv-previdenciario/
 - `assets/styles.css`: visual responsivo para desktop e celular.
 - `assets/site.js`: link de WhatsApp com mensagem de triagem e eventos básicos para medição.
 - `assets/google-ads-config.js`: configuração segura para inserir o ID e os rótulos reais de conversão.
-- `ads/`: plano de campanha, anúncios, palavras-chave e negativas.
-- `docs/`: roteiro de WhatsApp Business, publicação no GitHub Pages, compliance e relatório semanal.
+- `ads/`: plano de campanha, anúncios, palavras-chave, negativas e scripts de rebuild v2.
+- `docs/`: roteiro de WhatsApp Business, execução do rebuild v2, publicação no GitHub Pages, compliance e relatório semanal.
 - `.github/workflows/pages.yml`: workflow para publicar pelo GitHub Pages via Actions.
 
 ## Antes De Anunciar

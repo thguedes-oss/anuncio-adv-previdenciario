@@ -1,12 +1,12 @@
 Item;Valor
-Campanha;INSS Planejamento Jacarei SJC
+Campanha;INSS Planejamento Aposentadoria 55+ v2
 Status inicial;Pausada
 Tipo;Rede de Pesquisa
 Orçamento diário;R$ 10
 Meta;Agendamentos qualificados para consulta particular de planejamento de aposentadoria
 Perfil prioritário;Pessoas 55+ próximas da aposentadoria
-Filtro demográfico;Manter 55-64 e 65+, excluir abaixo de 55 e desconhecida
-Lance inicial;Maximizar cliques com controle conservador de orçamento
+Filtro demográfico;Manter 55-64 e 65+, liberar Desconhecida se houver entrega muito baixa após 48h
+Lance inicial;CPC manual conservador com ECPC, revisando status de primeira página antes de aumentar orçamento
 Redes;Pesquisa Google
 Parceiros de pesquisa;Desativado no primeiro teste
 Localização;Jacareí e São José dos Campos
@@ -14,4 +14,4 @@ Opção de localização;Presença na região
 Idioma;Português
 URL final;https://thguedes-oss.github.io/anuncio-adv-previdenciario/
 Horário;Seg-Sex 08:00-19:00, Sab 08:00-12:00
-Teste inicial;3 dias ou cerca de R$ 30 de gasto
+Teste inicial;7 dias ou cerca de R$ 70 de gasto

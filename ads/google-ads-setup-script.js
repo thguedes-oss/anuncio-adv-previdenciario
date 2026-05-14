@@ -1,3 +1,6 @@
+// LEGADO: use `ads/google-ads-v2-rebuild-script.js` para a campanha atual.
+// Este arquivo fica preservado apenas como histórico da primeira estrutura.
+
 const OLD_CAMPAIGN_NAME = "[S] - Leads - Previdenciario";
 const OLD_CAMPAIGN_NAME_ACCENTED = "[S] - Leads - Previdenci\u00e1rio";
 const CAMPAIGN_NAME = "INSS Planejamento Jacarei SJC";

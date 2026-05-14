@@ -14,10 +14,11 @@
 - [ ] Concluir faturamento da conta Google Ads.
 - [ ] Criar conversões no Google Ads.
 - [ ] Preencher `assets/google-ads-config.js` com ID e rótulos reais.
-- [ ] Criar campanha de Pesquisa em modo pausado.
+- [ ] Criar campanha v2 de Pesquisa em modo pausado: `INSS Planejamento Aposentadoria 55+ v2`.
 - [ ] Inserir palavras-chave.
 - [ ] Inserir negativas.
 - [ ] Vincular Perfil da Empresa.
 - [ ] Revisar campanha antes de ativar.
-- [ ] Ativar campanha com orçamento diário de teste (`R$ 10/dia`) após confirmação final.
+- [ ] Ativar campanha v2 com orçamento diário de teste (`R$ 10/dia`) após confirmação final.
+- [ ] Se em 48h houver entrega muito baixa, liberar idade `Desconhecida` com o script de fallback.
 - [ ] Revisar termos pesquisados após os primeiros dias.

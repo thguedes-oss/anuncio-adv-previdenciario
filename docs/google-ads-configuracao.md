@@ -31,26 +31,29 @@ window.GOOGLE_ADS_CONFIG = {
 
 Enquanto esses campos estiverem vazios, a landing continua funcionando normalmente, mas sem disparar conversões do Google Ads.
 
-## Etapa 3 - Campanha Pausada
+## Etapa 3 - Rebuild V2
 
-- Criar campanha de Pesquisa.
+- Pausar a campanha antiga e preservar histórico.
+- Criar a campanha `INSS Planejamento Aposentadoria 55+ v2`.
 - Usar somente a Rede de Pesquisa.
 - Desativar Display e Performance Max no primeiro teste.
 - Definir localização como presença em Jacareí e São José dos Campos.
 - Aplicar palavras negativas antes de publicar.
-- Criar os quatro grupos de anúncio definidos em `ads/google-ads-search-plan.md`.
+- Criar os três grupos de anúncio definidos em `ads/google-ads-search-plan.md`.
 - Status inicial: pausada.
-- Orçamento inicial para ativação futura: `R$ 10/dia`.
+- Orçamento de diagnóstico: `R$ 10/dia` por 7 dias.
+- Se em 48h houver entrega muito baixa, liberar idade `Desconhecida` pela rotina de fallback.
 
 ## Etapa 4 - Perfil da Empresa
 
 Vincule o Perfil da Empresa ao Google Ads para usar recursos de local. Isso ajuda a mostrar endereço, mapa e distância quando o anúncio permitir.
 
-## Etapa 5 - Acompanhamento semanal
+## Etapa 5 - Acompanhamento do teste
 
-Toda semana, registrar:
+Durante os 7 dias, registrar:
 
 - Gasto
+- Impressões
 - Cliques
 - Termos pesquisados
 - Conversas iniciadas
@@ -59,9 +62,9 @@ Toda semana, registrar:
 - Motivo de descarte
 - Ajustes de negativas
 
-## Etapa 6 - Decisão em 30 dias
+## Etapa 6 - Decisão após 7 dias
 
 - Manter: se houver leads qualificados com custo aceitável.
 - Ajustar: se houver cliques, mas baixa qualificação.
-- Pausar: se os termos estiverem ruins mesmo após negativas.
+- Pausar: se os termos estiverem ruins mesmo após negativas ou se não houver entrega viável.
 - Aumentar verba: somente se o custo por lead qualificado justificar.

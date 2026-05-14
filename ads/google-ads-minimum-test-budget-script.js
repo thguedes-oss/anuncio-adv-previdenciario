@@ -1,3 +1,6 @@
+// LEGADO: este ajuste era da campanha v1. Para a v2, use
+// `ads/google-ads-v2-rebuild-script.js`.
+
 const CAMPAIGN_NAME = "INSS Planejamento Jacarei SJC";
 const TEST_DAILY_BUDGET = 10;
 

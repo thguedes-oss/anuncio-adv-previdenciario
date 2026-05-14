@@ -1,31 +1,31 @@
 # Anúncios Responsivos De Pesquisa
 
-Use os textos abaixo como banco revisado para leads 55+ e consulta particular. A campanha deve permanecer pausada até a revisão final dentro do Google Ads.
+Use os textos abaixo na campanha `INSS Planejamento Aposentadoria 55+ v2`. A campanha deve permanecer pausada até a revisão final dentro do Google Ads.
 
 ## Títulos
 
-- Planejamento de Aposentadoria
-- Contagem de Tempo INSS
-- Consulta Previdenciária
-- Consulta Particular INSS
-- Tempo de Contribuição
+- Planeje Sua Aposentadoria
 - Consulta Para Aposentadoria
+- Tempo de Contribuição
+- Advogado Previdenciário
+- Aposentadoria Pelo INSS
+- Consulta Particular INSS
+- Quando Se Aposentar
+- Planejamento Previdenciário
 - Atendimento em Jacareí
 - São José dos Campos
-- Consulta Com Agendamento
-- Perto de Se Aposentar
-- Momento de Aposentar
-- Organize Documentos
 - Histórico de Trabalho
-- Possibilidades De Benefício
+- Documentos do INSS
+- Agendamento Profissional
+- Próximo da Aposentadoria
 - Direito Previdenciário
 
 ## Descrições
 
-- Consulta particular para avaliar vínculos, documentos e tempo antes do pedido ao INSS.
-- Planejamento para estimar o momento adequado e possibilidades de benefício.
-- Atendimento mediante agendamento, com documentos organizados para análise.
-- Foco em trabalhador próximo da aposentadoria e histórico de trabalho.
+- Consulta particular para planejar aposentadoria e avaliar tempo de contribuição.
+- Análise do histórico de trabalho, vínculos e documentos do INSS.
+- Atendimento mediante agendamento para quem está próximo de se aposentar.
+- Planejamento previdenciário em Jacareí, São José dos Campos e online.
 
 ## Caminhos de exibição
 
@@ -39,4 +39,4 @@ Use os textos abaixo como banco revisado para leads 55+ e consulta particular. A
 - Não usar `grátis`, `desconto`, `garantido`, `melhor` ou comparações.
 - Não mencionar valores ou forma de pagamento em anúncio público.
 - Não prometer concessão de benefício.
-- Preferir linguagem objetiva: `consulta`, `agendamento`, `análise`, `documentos`, `planejamento`.
+- Preferir linguagem objetiva e leiga: `quando aposentar`, `tempo de contribuição`, `documentos do INSS`, `consulta` e `planejamento`.

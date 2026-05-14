@@ -4,6 +4,8 @@
 
 Olá. Obrigado pelo contato. Este canal organiza o agendamento da consulta particular de planejamento de aposentadoria. A orientação jurídica individual ocorre em consulta mediante agendamento, após análise das informações e documentos.
 
+Antes do agendamento, informe de forma privada que se trata de consulta particular com honorários profissionais. Não divulgar valor no anúncio ou na landing page.
+
 Para agilizar o atendimento, envie:
 
 1. Nome completo
@@ -18,7 +20,7 @@ Com essas informações, o escritório orienta os documentos necessários e orga
 
 ### Caso adequado
 
-Obrigado pelas informações. O próximo passo é organizar o agendamento da consulta particular e separar os documentos para análise individual.
+Obrigado pelas informações. O próximo passo é organizar o agendamento da consulta particular, confirmar os honorários em conversa privada e separar os documentos para análise individual.
 
 ### Falta documento do INSS
 

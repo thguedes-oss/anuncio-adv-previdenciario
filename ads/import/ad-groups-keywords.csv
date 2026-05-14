@@ -1,65 +1,30 @@
 Ad group;Keyword;Match type
-Planejamento previdenciário;planejamento previdenciario;Phrase
-Planejamento previdenciário;planejamento previdenciario;Exact
-Planejamento previdenciário;planejamento previdenciário;Phrase
-Planejamento previdenciário;planejamento previdenciário;Exact
-Planejamento previdenciário;planejamento aposentadoria inss;Phrase
-Planejamento previdenciário;planejamento aposentadoria inss;Exact
-Planejamento previdenciário;consulta planejamento aposentadoria;Phrase
-Planejamento previdenciário;consulta planejamento aposentadoria;Exact
-Planejamento previdenciário;consulta previdenciaria aposentadoria;Phrase
-Planejamento previdenciário;consulta previdenciaria aposentadoria;Exact
-Planejamento previdenciário;consulta de planejamento previdenciario;Phrase
-Planejamento previdenciário;consulta de planejamento previdenciario;Exact
-Planejamento previdenciário;consulta particular aposentadoria;Phrase
-Planejamento previdenciário;consulta particular aposentadoria;Exact
-Planejamento previdenciário;planejamento aposentadoria advogado;Phrase
-Planejamento previdenciário;planejamento aposentadoria advogado;Exact
-Planejamento previdenciário;consulta para aposentadoria;Phrase
-Planejamento previdenciário;consulta para aposentadoria;Exact
-Planejamento previdenciário;planejar aposentadoria inss;Phrase
-Planejamento previdenciário;planejar aposentadoria inss;Exact
-Contagem de tempo INSS;contagem de tempo inss;Phrase
-Contagem de tempo INSS;contagem de tempo inss;Exact
-Contagem de tempo INSS;contagem de tempo inss advogado;Phrase
-Contagem de tempo INSS;contagem de tempo inss advogado;Exact
-Contagem de tempo INSS;tempo de contribuição para aposentadoria;Phrase
-Contagem de tempo INSS;tempo de contribuicao para aposentadoria;Phrase
-Contagem de tempo INSS;aposentadoria tempo de contribuição;Phrase
-Contagem de tempo INSS;aposentadoria tempo de contribuição;Exact
-Contagem de tempo INSS;aposentadoria tempo de contribuicao;Phrase
-Contagem de tempo INSS;aposentadoria tempo de contribuicao;Exact
-Prazo para aposentadoria;quanto falta para aposentar;Phrase
-Prazo para aposentadoria;quanto falta para aposentar;Exact
-Prazo para aposentadoria;quanto tempo falta para aposentar;Phrase
-Prazo para aposentadoria;quanto tempo falta para aposentar;Exact
-Prazo para aposentadoria;melhor momento para aposentar;Phrase
-Prazo para aposentadoria;melhor momento para aposentar;Exact
-Prazo para aposentadoria;melhor momento para aposentadoria;Phrase
-Prazo para aposentadoria;melhor momento para aposentadoria;Exact
-Prazo para aposentadoria;quando pedir aposentadoria inss;Phrase
-Prazo para aposentadoria;quando pedir aposentadoria inss;Exact
-Prazo para aposentadoria;planejar pedido de aposentadoria;Phrase
-Prazo para aposentadoria;planejar pedido de aposentadoria;Exact
-Prazo para aposentadoria;saber quando aposentar;Phrase
-Prazo para aposentadoria;saber quando aposentar;Exact
-Advogado previdenciário Jacareí SJC;advogado previdenciario jacarei;Phrase
-Advogado previdenciário Jacareí SJC;advogado previdenciario jacarei;Exact
-Advogado previdenciário Jacareí SJC;advogado previdenciário jacareí;Phrase
-Advogado previdenciário Jacareí SJC;advogado previdenciário jacareí;Exact
-Advogado previdenciário Jacareí SJC;advogado aposentadoria jacarei;Phrase
-Advogado previdenciário Jacareí SJC;advogado aposentadoria jacarei;Exact
-Advogado previdenciário Jacareí SJC;advogado planejamento aposentadoria jacarei;Phrase
-Advogado previdenciário Jacareí SJC;advogado planejamento aposentadoria jacarei;Exact
-Advogado previdenciário Jacareí SJC;consulta previdenciaria jacarei;Phrase
-Advogado previdenciário Jacareí SJC;consulta previdenciaria jacarei;Exact
-Advogado previdenciário Jacareí SJC;advogado previdenciario sao jose dos campos;Phrase
-Advogado previdenciário Jacareí SJC;advogado previdenciario sao jose dos campos;Exact
-Advogado previdenciário Jacareí SJC;advogado previdenciário são josé dos campos;Phrase
-Advogado previdenciário Jacareí SJC;advogado aposentadoria sao jose dos campos;Phrase
-Advogado previdenciário Jacareí SJC;advogado aposentadoria sao jose dos campos;Exact
-Advogado previdenciário Jacareí SJC;advogado planejamento aposentadoria sao jose dos campos;Phrase
-Advogado previdenciário Jacareí SJC;advogado planejamento aposentadoria sao jose dos campos;Exact
-Advogado previdenciário Jacareí SJC;consulta previdenciaria sao jose dos campos;Phrase
-Advogado previdenciário Jacareí SJC;consulta previdenciaria sao jose dos campos;Exact
-Advogado previdenciário Jacareí SJC;advogado previdenciario sjc;Phrase
+Planejar aposentadoria;planejar aposentadoria;Broad
+Planejar aposentadoria;planejar aposentadoria;Phrase
+Planejar aposentadoria;planejar aposentadoria;Exact
+Planejar aposentadoria;planejamento aposentadoria;Phrase
+Planejar aposentadoria;planejamento aposentadoria;Exact
+Planejar aposentadoria;planejamento de aposentadoria;Phrase
+Planejar aposentadoria;consulta para aposentadoria;Broad
+Planejar aposentadoria;consulta para aposentadoria;Phrase
+Planejar aposentadoria;consulta para aposentadoria;Exact
+Planejar aposentadoria;consulta aposentadoria;Phrase
+Quando aposentar;quando posso me aposentar;Phrase
+Quando aposentar;quando posso me aposentar;Exact
+Quando aposentar;quanto tempo falta para me aposentar;Phrase
+Quando aposentar;quanto tempo falta para me aposentar;Exact
+Quando aposentar;quanto falta para aposentar;Phrase
+Quando aposentar;tempo contribuição aposentadoria;Broad
+Quando aposentar;tempo de contribuição para aposentadoria;Phrase
+Quando aposentar;tempo de contribuicao para aposentadoria;Phrase
+Quando aposentar;calcular tempo de contribuição para aposentadoria;Phrase
+Advogado aposentadoria local;advogado aposentadoria;Broad
+Advogado aposentadoria local;advogado aposentadoria jacarei;Phrase
+Advogado aposentadoria local;advogado aposentadoria jacareí;Phrase
+Advogado aposentadoria local;advogado aposentadoria jacarei;Exact
+Advogado aposentadoria local;advogado inss jacarei;Phrase
+Advogado aposentadoria local;advogado inss jacareí;Phrase
+Advogado aposentadoria local;advogado inss são josé dos campos;Phrase
+Advogado aposentadoria local;advogado inss sao jose dos campos;Phrase
+Advogado aposentadoria local;advogado aposentadoria sao jose dos campos;Phrase
+Advogado aposentadoria local;advogado aposentadoria são josé dos campos;Phrase

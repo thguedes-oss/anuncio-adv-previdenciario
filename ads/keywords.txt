@@ -1,75 +1,34 @@
-# Planejamento previdenciário
-"planejamento previdenciario"
-[planejamento previdenciario]
-"planejamento previdenciário"
-[planejamento previdenciário]
-"planejamento aposentadoria inss"
-[planejamento aposentadoria inss]
-"consulta planejamento aposentadoria"
-[consulta planejamento aposentadoria]
-"consulta previdenciaria aposentadoria"
-[consulta previdenciaria aposentadoria]
-"consulta de planejamento previdenciario"
-[consulta de planejamento previdenciario]
-"consulta particular aposentadoria"
-[consulta particular aposentadoria]
-"planejamento aposentadoria advogado"
-[planejamento aposentadoria advogado]
+# Planejar aposentadoria
+planejar aposentadoria
+"planejar aposentadoria"
+[planejar aposentadoria]
+"planejamento aposentadoria"
+[planejamento aposentadoria]
+"planejamento de aposentadoria"
+consulta para aposentadoria
 "consulta para aposentadoria"
 [consulta para aposentadoria]
-"planejar aposentadoria inss"
-[planejar aposentadoria inss]
+"consulta aposentadoria"
 
-# Contagem de tempo INSS
-"contagem de tempo inss"
-[contagem de tempo inss]
-"contagem de tempo inss advogado"
-[contagem de tempo inss advogado]
-"tempo de contribuição para aposentadoria"
-[tempo de contribuição para aposentadoria]
-"tempo de contribuicao para aposentadoria"
-[tempo de contribuicao para aposentadoria]
-"aposentadoria tempo de contribuição"
-[aposentadoria tempo de contribuição]
-"aposentadoria tempo de contribuicao"
-[aposentadoria tempo de contribuicao]
-
-# Prazo para aposentadoria
+# Quando aposentar
+"quando posso me aposentar"
+[quando posso me aposentar]
+"quanto tempo falta para me aposentar"
+[quanto tempo falta para me aposentar]
 "quanto falta para aposentar"
-[quanto falta para aposentar]
-"quanto tempo falta para aposentar"
-[quanto tempo falta para aposentar]
-"melhor momento para aposentar"
-[melhor momento para aposentar]
-"melhor momento para aposentadoria"
-[melhor momento para aposentadoria]
-"quando pedir aposentadoria inss"
-[quando pedir aposentadoria inss]
-"planejar pedido de aposentadoria"
-[planejar pedido de aposentadoria]
-"saber quando aposentar"
-[saber quando aposentar]
+tempo contribuição aposentadoria
+"tempo de contribuição para aposentadoria"
+"tempo de contribuicao para aposentadoria"
+"calcular tempo de contribuição para aposentadoria"
 
-# Advogado previdenciário Jacareí e SJC
-"advogado previdenciario jacarei"
-[advogado previdenciario jacarei]
-"advogado previdenciário jacareí"
-[advogado previdenciário jacareí]
+# Advogado aposentadoria local
+advogado aposentadoria
 "advogado aposentadoria jacarei"
+"advogado aposentadoria jacareí"
 [advogado aposentadoria jacarei]
-"advogado planejamento aposentadoria jacarei"
-[advogado planejamento aposentadoria jacarei]
-"consulta previdenciaria jacarei"
-[consulta previdenciaria jacarei]
-"advogado previdenciario sao jose dos campos"
-[advogado previdenciario sao jose dos campos]
-"advogado previdenciário são josé dos campos"
-[advogado previdenciário são josé dos campos]
+"advogado inss jacarei"
+"advogado inss jacareí"
+"advogado inss são josé dos campos"
+"advogado inss sao jose dos campos"
 "advogado aposentadoria sao jose dos campos"
-[advogado aposentadoria sao jose dos campos]
-"advogado planejamento aposentadoria sao jose dos campos"
-[advogado planejamento aposentadoria sao jose dos campos]
-"consulta previdenciaria sao jose dos campos"
-[consulta previdenciaria sao jose dos campos]
-"advogado previdenciario sjc"
-[advogado previdenciario sjc]
+"advogado aposentadoria são josé dos campos"
