@@ -6,13 +6,13 @@
     <title>Planejamento de Aposentadoria INSS | Thiago Tomizawa</title>
     <meta
       name="description"
-      content="Consulta particular para avaliar tempo de contribuição, documentos e o momento adequado do pedido de aposentadoria pelo INSS."
+      content="Consulta para avaliar tempo de contribuição, documentos e o momento adequado do pedido de aposentadoria pelo INSS."
     >
     <meta name="robots" content="index,follow">
     <meta property="og:title" content="Planejamento de Aposentadoria pelo INSS">
     <meta
       property="og:description"
-      content="Consulta particular para avaliar histórico de trabalho, tempo de contribuição e documentos antes do pedido de aposentadoria pelo INSS."
+      content="Consulta para avaliar histórico de trabalho, tempo de contribuição e documentos antes do pedido de aposentadoria pelo INSS."
     >
     <meta property="og:type" content="website">
     <meta property="og:locale" content="pt_BR">
@@ -24,7 +24,7 @@
         "@context": "https://schema.org",
         "@type": "LegalService",
         "name": "Thiago Tomizawa - Advogado Previdenciário (INSS)",
-        "description": "Consulta particular em Direito Previdenciário para diagnóstico inicial de aposentadoria, contagem de tempo de contribuição e análise do histórico de trabalho.",
+        "description": "Consulta em Direito Previdenciário para planejamento de aposentadoria, contagem de tempo de contribuição e análise do histórico de trabalho.",
         "areaServed": ["Jacare\u00ed", "S\u00e3o Jos\u00e9 dos Campos"],
         "address": {
           "@type": "PostalAddress",
@@ -34,7 +34,7 @@
           "addressCountry": "BR"
         },
         "telephone": "+55 12 98104-2299",
-        "priceRange": "Consulta particular mediante agendamento"
+        "priceRange": "Consulta mediante agendamento"
       }
     </script>
   </head>
@@ -100,13 +100,12 @@
           </span>
         </a>
         <nav class="main-nav" aria-label="Navegação principal">
-          <a href="#triagem">Triagem</a>
-          <a href="#autoridade">Advogado</a>
+          <a href="#atendimento">Atendimento</a>
           <a href="#avaliacoes">Avaliações</a>
         </nav>
-        <a class="header-cta" href="#triagem" data-event="cta_header">
+        <a class="header-cta" href="#atendimento" data-event="cta_header">
           <svg class="icon button-icon" aria-hidden="true"><use href="#icon-message"></use></svg>
-          <span>Iniciar triagem</span>
+          <span>Iniciar atendimento</span>
         </a>
       </div>
     </header>
@@ -118,15 +117,13 @@
             <p class="eyebrow">Jacare&iacute; e S&atilde;o Jos&eacute; dos Campos | INSS</p>
             <h1>Saiba quando pedir sua aposentadoria pelo INSS</h1>
             <p class="hero-text">
-              Consulta particular para avaliar tempo de contribui&ccedil;&atilde;o, documentos e o momento adequado do pedido.
+              Consulta para avaliar seu tempo de contribui&ccedil;&atilde;o e orientar o melhor caminho para a aposentadoria.
             </p>
             <p class="consult-note">Atendimento mediante agendamento.</p>
           </div>
-          <form class="triage-card hero-triage" id="triagem" aria-label="Mini triagem para consulta de planejamento de aposentadoria">
+          <form class="triage-card hero-triage" id="atendimento" aria-label="Atendimento para consulta de planejamento de aposentadoria">
             <div class="form-heading">
-              <p class="eyebrow">Mini triagem</p>
-              <h2>Responda o que souber</h2>
-              <p>Se tiver dúvida, escolha &ldquo;Não sei&rdquo;.</p>
+              <h2>Atendimento</h2>
             </div>
             <label for="triage-name">
               <span>Nome</span>
@@ -135,31 +132,20 @@
             <label for="triage-age">
               <span>Idade aproximada</span>
               <select id="triage-age" name="age" required>
-                <option>Não sei</option>
-                <option>Ainda não tenho 55 anos</option>
                 <option>55 a 59</option>
                 <option>60 a 64</option>
                 <option>65 ou mais</option>
+                <option>Ainda não tenho 55 anos</option>
+                <option>Não sei</option>
               </select>
             </label>
             <label for="triage-objective">
               <span>Quero saber</span>
               <select id="triage-objective" name="objective" required>
+                <option>Quando posso me aposentar?</option>
+                <option>Quanto posso receber ao me aposentar?</option>
+                <option>Qual seria o melhor benefício de aposentadoria?</option>
                 <option>Não sei</option>
-                <option>Quando posso me aposentar</option>
-                <option>Quanto tempo falta</option>
-                <option>Se já posso pedir</option>
-                <option>Quais documentos separar</option>
-              </select>
-            </label>
-            <label for="triage-documents">
-              <span>Documentos que tenho</span>
-              <select id="triage-documents" name="documents" required>
-                <option>Não sei</option>
-                <option>Carteira de trabalho</option>
-                <option>Documentos do INSS</option>
-                <option>Tenho alguns documentos</option>
-                <option>Ainda não separei documentos</option>
               </select>
             </label>
             <label for="triage-contact-time">
@@ -168,9 +154,9 @@
             </label>
             <button class="button primary full" type="submit">
               <svg class="icon button-icon" aria-hidden="true"><use href="#icon-message"></use></svg>
-              <span>Enviar triagem pelo WhatsApp</span>
+              <span>Iniciar atendimento pelo WhatsApp</span>
             </button>
-            <p class="form-note">Consulta particular mediante agendamento.</p>
+            <p class="form-note">Consulta mediante agendamento.</p>
           </form>
         </div>
       </section>
@@ -178,30 +164,20 @@
       <section class="signal-band" aria-label="Informações rápidas">
         <div class="wrap signal-grid">
           <div>
-            <svg class="icon signal-icon" aria-hidden="true"><use href="#icon-target"></use></svg>
-            <strong>Tempo de contribuição</strong>
-            <span>Conferência do histórico de trabalho.</span>
+            <svg class="icon signal-icon" aria-hidden="true"><use href="#icon-message"></use></svg>
+            <strong>Você envia o contato</strong>
+            <span>Preencha o formulário acima.</span>
           </div>
           <div>
             <svg class="icon signal-icon" aria-hidden="true"><use href="#icon-file-check"></use></svg>
-            <strong>Documentos</strong>
-            <span>Orientação sobre o que separar.</span>
+            <strong>O escritório retorna</strong>
+            <span>Indicamos documentos e agendamos a consulta.</span>
           </div>
           <div>
-            <svg class="icon signal-icon" aria-hidden="true"><use href="#icon-calendar"></use></svg>
-            <strong>Momento do pedido</strong>
-            <span>Avaliação antes de solicitar ao INSS.</span>
+            <svg class="icon signal-icon" aria-hidden="true"><use href="#icon-target"></use></svg>
+            <strong>Consulta e relatório</strong>
+            <span>Você recebe a contagem do tempo e orientação personalizada.</span>
           </div>
-        </div>
-      </section>
-
-      <section class="authority-strip" id="autoridade" aria-label="Advogado responsável">
-        <div class="wrap authority-grid">
-          <div>
-            <p class="eyebrow">Advogado responsável</p>
-            <h2>Thiago Tomizawa</h2>
-          </div>
-          <p>OAB/SP 300.566. Mais de 16 anos de atuação em advocacia previdenciária, com foco em planejamento de aposentadoria pelo INSS.</p>
         </div>
       </section>
 
@@ -217,7 +193,9 @@
             width="900"
             height="264"
           >
-          <strong>Thiago Tomizawa - Advocacia Previdenciária</strong>
+          <strong>Thiago Tomizawa</strong>
+          <span>Advocacia Previdenciária</span>
+          <span>Mais de 16 anos de atuação em advocacia previdenciária.</span>
         </div>
         <address class="footer-contact" aria-label="Endereço e contato do escritório">
           <span class="footer-line"><svg class="icon footer-icon" aria-hidden="true"><use href="#icon-award"></use></svg>OAB/SP 300.566</span>

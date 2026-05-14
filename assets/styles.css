@@ -471,8 +471,8 @@ h3 {
 
 .form-heading,
 .hero-triage label[for="triage-name"],
+.hero-triage label[for="triage-age"],
 .hero-triage label[for="triage-objective"],
-.hero-triage label[for="triage-documents"],
 .hero-triage label[for="triage-contact-time"],
 .hero-triage .button,
 .hero-triage .form-note {
@@ -528,27 +528,6 @@ h3 {
   margin: -2px 0 0;
   color: var(--ink-soft);
   font-size: 0.9rem;
-}
-
-.authority-strip {
-  padding: 56px 0;
-}
-
-.authority-grid {
-  display: grid;
-  grid-template-columns: minmax(220px, 0.6fr) minmax(0, 1fr);
-  gap: 36px;
-  align-items: center;
-  padding: 28px;
-  border: 1px solid rgba(224, 216, 202, 0.84);
-  border-radius: var(--radius);
-  background: var(--surface-strong);
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.74) inset;
-}
-
-.authority-grid p:last-child {
-  margin: 0;
-  color: var(--ink-soft);
 }
 
 .section-heading {
@@ -805,8 +784,7 @@ h3 {
 
   .signal-grid,
   .steps,
-  .diagnostic-grid,
-  .authority-grid {
+  .diagnostic-grid {
     grid-template-columns: 1fr;
   }
 
@@ -902,10 +880,6 @@ h3 {
 
   .triage-card .button {
     min-height: 50px;
-  }
-
-  .hero-triage .form-note {
-    display: none;
   }
 
   .section {
