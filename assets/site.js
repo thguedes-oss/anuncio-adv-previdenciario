@@ -4,9 +4,18 @@ const OFFICE = {
   lawyerName: "Dr. Thiago Tomizawa"
 };
 
-const whatsappMessage = [
-  "Olá, gostaria de agendar uma consulta particular de planejamento de aposentadoria pelo INSS."
+const defaultWhatsappMessage = [
+  "Olá, gostaria de iniciar a triagem para uma consulta de planejamento de aposentadoria pelo INSS."
 ].join("\n");
+
+const TRIAGE_FIELDS = {
+  name: "Nome",
+  age: "Idade",
+  work: "Tipo de trabalho",
+  objective: "Objetivo",
+  documents: "Documentos disponíveis",
+  contactTime: "Melhor horário para retorno"
+};
 
 function getGoogleAdsConfig() {
   return window.GOOGLE_ADS_CONFIG || {};
@@ -63,8 +72,8 @@ function reportGoogleAdsConversion(conversionName) {
   });
 }
 
-function buildWhatsAppUrl() {
-  return `https://wa.me/${OFFICE.whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+function buildWhatsAppUrl(message = defaultWhatsappMessage) {
+  return `https://wa.me/${OFFICE.whatsappNumber}?text=${encodeURIComponent(message)}`;
 }
 
 function trackEvent(eventName) {
@@ -72,6 +81,53 @@ function trackEvent(eventName) {
   window.dataLayer.push({
     event: eventName,
     page_location: window.location.href
+  });
+}
+
+function buildTriageMessage(form) {
+  const data = new FormData(form);
+  const lines = [
+    "Olá, gostaria de iniciar a triagem para uma consulta de planejamento de aposentadoria pelo INSS.",
+    "",
+    "Dados para a triagem:"
+  ];
+
+  Object.entries(TRIAGE_FIELDS).forEach(([field, label]) => {
+    const value = String(data.get(field) || "").trim();
+    if (value) {
+      lines.push(`${label}: ${value}`);
+    }
+  });
+
+  lines.push("");
+  lines.push("Meu objetivo é receber orientação sobre os documentos necessários para preparar a consulta.");
+
+  return lines.join("\n");
+}
+
+function wireTriageForm() {
+  const form = document.querySelector("#triage-form");
+  if (!form) {
+    return;
+  }
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    if (!form.reportValidity()) {
+      return;
+    }
+
+    trackEvent("triage_submit");
+    trackEvent("whatsapp_triage_submit");
+    reportGoogleAdsConversion("triage");
+    reportGoogleAdsConversion("whatsapp");
+
+    const url = buildWhatsAppUrl(buildTriageMessage(form));
+    const opened = window.open(url, "_blank", "noopener");
+    if (!opened) {
+      window.location.href = url;
+    }
   });
 }
 
@@ -110,5 +166,6 @@ function wireMobileAction() {
 window.addEventListener("DOMContentLoaded", () => {
   loadGoogleAdsTag();
   wireTracking();
+  wireTriageForm();
   wireMobileAction();
 });

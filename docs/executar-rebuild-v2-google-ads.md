@@ -1,5 +1,7 @@
 # Executar Rebuild V2 No Google Ads
 
+> Documento legado. Para a campanha atual, use `docs/executar-rebuild-v3-google-ads.md`.
+
 ## Script principal
 
 1. Abra Google Ads.

@@ -1,34 +1,45 @@
-# Planejar aposentadoria
-planejar aposentadoria
-"planejar aposentadoria"
-[planejar aposentadoria]
-"planejamento aposentadoria"
-[planejamento aposentadoria]
-"planejamento de aposentadoria"
-consulta para aposentadoria
+# Consulta aposentadoria
 "consulta para aposentadoria"
 [consulta para aposentadoria]
 "consulta aposentadoria"
+[consulta aposentadoria]
+"consulta particular aposentadoria"
+"diagnostico aposentadoria"
+"diagnóstico aposentadoria"
+"planejamento de aposentadoria"
+[planejamento de aposentadoria]
 
-# Quando aposentar
+# Quando se aposentar
 "quando posso me aposentar"
 [quando posso me aposentar]
+"saber quando aposentar"
+"saber quando vou me aposentar"
+"quando pedir aposentadoria"
+"melhor momento para se aposentar"
 "quanto tempo falta para me aposentar"
 [quanto tempo falta para me aposentar]
-"quanto falta para aposentar"
-tempo contribuição aposentadoria
+
+# Tempo de contribuição
 "tempo de contribuição para aposentadoria"
 "tempo de contribuicao para aposentadoria"
+[tempo de contribuição para aposentadoria]
 "calcular tempo de contribuição para aposentadoria"
+"contagem de tempo aposentadoria"
+"contagem de tempo inss"
+"extrato previdenciário aposentadoria"
+"documentos do inss para aposentadoria"
 
 # Advogado aposentadoria local
-advogado aposentadoria
 "advogado aposentadoria jacarei"
 "advogado aposentadoria jacareí"
 [advogado aposentadoria jacarei]
-"advogado inss jacarei"
+"advogado previdenciário jacareí"
+"advogado previdenciario jacarei"
 "advogado inss jacareí"
+"advogado inss jacarei"
+"advogado aposentadoria são josé dos campos"
+"advogado aposentadoria sao jose dos campos"
+"advogado previdenciário são josé dos campos"
+"advogado previdenciario sao jose dos campos"
 "advogado inss são josé dos campos"
 "advogado inss sao jose dos campos"
-"advogado aposentadoria sao jose dos campos"
-"advogado aposentadoria são josé dos campos"

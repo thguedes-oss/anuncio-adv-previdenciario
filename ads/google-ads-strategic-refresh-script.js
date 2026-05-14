@@ -1,4 +1,4 @@
-// LEGADO: use `ads/google-ads-v2-rebuild-script.js` para a campanha atual.
+// LEGADO: use `ads/google-ads-v3-qualified-rebuild-script.js` para a campanha atual.
 // Este arquivo fica preservado apenas como histórico da primeira estrutura.
 
 const OLD_CAMPAIGN_NAME = "[S] - Leads - Previdenciario";

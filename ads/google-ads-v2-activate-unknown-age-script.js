@@ -1,3 +1,5 @@
+// LEGADO: a v3 atual já mantém idade Desconhecida aberta por padrão.
+
 const CAMPAIGN_NAME = "INSS Planejamento Aposentadoria 55+ v2";
 const API_VERSION = "v24";
 

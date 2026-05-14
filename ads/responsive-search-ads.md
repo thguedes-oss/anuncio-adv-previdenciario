@@ -1,42 +1,40 @@
-# Anúncios Responsivos De Pesquisa
+# Anúncios Responsivos De Pesquisa - V3
 
-Use os textos abaixo na campanha `INSS Planejamento Aposentadoria 55+ v2`. A campanha deve permanecer pausada até a revisão final dentro do Google Ads.
+Use os textos abaixo na campanha `INSS Diagnostico Aposentadoria Jacarei SJC v3`. A campanha deve permanecer pausada até revisão final.
 
 ## Títulos
 
-- Planeje Sua Aposentadoria
-- Consulta Para Aposentadoria
+- Diagnóstico de Aposentadoria
+- Planeje Quando Se Aposentar
+- Consulta Particular INSS
 - Tempo de Contribuição
 - Advogado Previdenciário
-- Aposentadoria Pelo INSS
-- Consulta Particular INSS
-- Quando Se Aposentar
-- Planejamento Previdenciário
-- Atendimento em Jacareí
-- São José dos Campos
-- Histórico de Trabalho
+- Jacareí e SJC
 - Documentos do INSS
-- Agendamento Profissional
+- Histórico de Trabalho
+- Consulta Com Agendamento
 - Próximo da Aposentadoria
-- Direito Previdenciário
+- Planejamento Pelo INSS
+- Avalie Seu Histórico
+- Aposentadoria Pelo INSS
+- Escritório em Jacareí
+- Atendimento Online
 
 ## Descrições
 
-- Consulta particular para planejar aposentadoria e avaliar tempo de contribuição.
-- Análise do histórico de trabalho, vínculos e documentos do INSS.
-- Atendimento mediante agendamento para quem está próximo de se aposentar.
-- Planejamento previdenciário em Jacareí, São José dos Campos e online.
+- Consulta particular para avaliar tempo de contribuição e documentos do INSS.
+- Diagnóstico inicial para quem está próximo de se aposentar. Atendimento agendado.
+- Organize histórico de trabalho e próximos passos antes de pedir aposentadoria.
+- Atendimento em Jacareí, São José dos Campos e online para planejamento.
 
 ## Caminhos de exibição
 
 - `aposentadoria`
-- `inss`
-- `planejamento`
-- `consulta`
+- `diagnostico`
 
 ## Cuidados de texto
 
-- Não usar `grátis`, `desconto`, `garantido`, `melhor` ou comparações.
+- Não usar `grátis`, `desconto`, `garantido`, `melhor advogado` ou comparação profissional.
 - Não mencionar valores ou forma de pagamento em anúncio público.
-- Não prometer concessão de benefício.
-- Preferir linguagem objetiva e leiga: `quando aposentar`, `tempo de contribuição`, `documentos do INSS`, `consulta` e `planejamento`.
+- Não prometer concessão, aumento de benefício ou prazo de aprovação.
+- Preferir linguagem leiga: `quando se aposentar`, `tempo de contribuição`, `documentos do INSS`, `consulta particular` e `diagnóstico inicial`.

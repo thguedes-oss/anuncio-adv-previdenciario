@@ -8,17 +8,17 @@
 - [x] Ativar GitHub Pages com GitHub Actions.
 - [x] Copiar URL publicada.
 - [x] Testar página no celular.
-- [x] Testar clique no WhatsApp.
+- [x] Testar envio da mini triagem para WhatsApp.
 - [x] Testar clique no telefone.
 - [x] Confirmar que as imagens em `assets/brand/` carregam corretamente.
 - [ ] Concluir faturamento da conta Google Ads.
-- [ ] Criar conversões no Google Ads.
+- [ ] Criar conversões no Google Ads: triagem enviada, WhatsApp e telefone.
 - [ ] Preencher `assets/google-ads-config.js` com ID e rótulos reais.
-- [ ] Criar campanha v2 de Pesquisa em modo pausado: `INSS Planejamento Aposentadoria 55+ v2`.
+- [ ] Criar campanha v3 de Pesquisa em modo pausado: `INSS Diagnostico Aposentadoria Jacarei SJC v3`.
 - [ ] Inserir palavras-chave.
 - [ ] Inserir negativas.
 - [ ] Vincular Perfil da Empresa.
 - [ ] Revisar campanha antes de ativar.
-- [ ] Ativar campanha v2 com orçamento diário de teste (`R$ 10/dia`) após confirmação final.
-- [ ] Se em 48h houver entrega muito baixa, liberar idade `Desconhecida` com o script de fallback.
+- [ ] Ativar campanha v3 com orçamento diário de teste (`R$ 20/dia`) após confirmação final.
+- [ ] Se em 48h houver entrega muito baixa, revisar lance/status antes de ampliar região.
 - [ ] Revisar termos pesquisados após os primeiros dias.
