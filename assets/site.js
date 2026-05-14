@@ -11,8 +11,8 @@ const defaultWhatsappMessage = [
 const TRIAGE_FIELDS = {
   name: "Nome",
   age: "Idade aproximada",
-  objective: "O que deseja saber",
-  documents: "Documentos em mãos",
+  objective: "Quero saber",
+  documents: "Documentos que tenho",
   contactTime: "Melhor horário para retorno"
 };
 
@@ -99,13 +99,13 @@ function buildTriageMessage(form) {
   });
 
   lines.push("");
-  lines.push("Gostaria de receber orientação sobre os documentos necessários para preparar a consulta.");
+  lines.push("Gostaria de saber os próximos passos para preparar a consulta.");
 
   return lines.join("\n");
 }
 
 function wireTriageForm() {
-  const form = document.querySelector("#triage-form");
+  const form = document.querySelector("#triagem, #triage-form");
   if (!form) {
     return;
   }
@@ -148,23 +148,8 @@ function wireTracking() {
   });
 }
 
-function wireMobileAction() {
-  const mobileAction = document.querySelector(".mobile-action");
-  if (!mobileAction) {
-    return;
-  }
-
-  const toggleMobileAction = () => {
-    mobileAction.classList.toggle("is-visible", window.scrollY > 520);
-  };
-
-  toggleMobileAction();
-  window.addEventListener("scroll", toggleMobileAction, { passive: true });
-}
-
 window.addEventListener("DOMContentLoaded", () => {
   loadGoogleAdsTag();
   wireTracking();
   wireTriageForm();
-  wireMobileAction();
 });

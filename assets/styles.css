@@ -162,7 +162,7 @@ a {
 }
 
 .hero {
-  min-height: 620px;
+  min-height: 650px;
   display: flex;
   align-items: center;
   background:
@@ -174,9 +174,10 @@ a {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 720px) minmax(220px, 1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 440px);
+  gap: 52px;
   align-items: center;
-  padding: 54px 0 72px;
+  padding: 42px 0 62px;
 }
 
 .hero-copy {
@@ -318,8 +319,8 @@ h3 {
 }
 
 .consult-note {
-  margin: 0;
-  text-align: center;
+  margin: 18px 0 0;
+  text-align: left;
 }
 
 .signal-band {
@@ -460,9 +461,41 @@ h3 {
   box-shadow: var(--panel-shadow);
 }
 
+.hero-triage {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  align-self: center;
+  padding: 22px;
+  color: var(--ink);
+}
+
+.form-heading,
+.hero-triage label[for="triage-name"],
+.hero-triage label[for="triage-objective"],
+.hero-triage label[for="triage-documents"],
+.hero-triage label[for="triage-contact-time"],
+.hero-triage .button,
+.hero-triage .form-note {
+  grid-column: 1 / -1;
+}
+
+.form-heading h2 {
+  font-size: 1.38rem;
+  line-height: 1.12;
+}
+
+.form-heading p {
+  margin: 8px 0 0;
+  color: var(--ink-soft);
+}
+
+.form-heading .eyebrow {
+  margin-bottom: 8px;
+}
+
 .triage-card label {
   display: grid;
-  gap: 7px;
+  gap: 5px;
   color: var(--ink);
   font-weight: 700;
 }
@@ -474,7 +507,7 @@ h3 {
 .triage-card input,
 .triage-card select {
   width: 100%;
-  min-height: 48px;
+  min-height: 44px;
   padding: 0 14px;
   border: 1px solid rgba(191, 181, 164, 0.92);
   border-radius: 14px;
@@ -495,6 +528,27 @@ h3 {
   margin: -2px 0 0;
   color: var(--ink-soft);
   font-size: 0.9rem;
+}
+
+.authority-strip {
+  padding: 56px 0;
+}
+
+.authority-grid {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.6fr) minmax(0, 1fr);
+  gap: 36px;
+  align-items: center;
+  padding: 28px;
+  border: 1px solid rgba(224, 216, 202, 0.84);
+  border-radius: var(--radius);
+  background: var(--surface-strong);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.74) inset;
+}
+
+.authority-grid p:last-child {
+  margin: 0;
+  color: var(--ink-soft);
 }
 
 .section-heading {
@@ -721,10 +775,6 @@ h3 {
   white-space: nowrap;
 }
 
-.mobile-action {
-  display: none;
-}
-
 @media (max-width: 900px) {
   .main-nav {
     display: none;
@@ -749,12 +799,14 @@ h3 {
   }
 
   .hero-grid {
-    padding: 52px 0 78px;
+    gap: 30px;
+    padding: 44px 0 70px;
   }
 
   .signal-grid,
   .steps,
-  .diagnostic-grid {
+  .diagnostic-grid,
+  .authority-grid {
     grid-template-columns: 1fr;
   }
 
@@ -798,11 +850,12 @@ h3 {
   }
 
   h1 {
-    font-size: 2.18rem;
+    font-size: 1.98rem;
   }
 
   .hero-text {
-    font-size: 1.05rem;
+    margin-top: 16px;
+    font-size: 1rem;
   }
 
   .button {
@@ -811,6 +864,48 @@ h3 {
 
   .hero-cta-stack {
     width: 100%;
+  }
+
+  .hero-grid {
+    padding: 34px 0 54px;
+  }
+
+  .hero-copy .consult-note {
+    display: none;
+  }
+
+  .hero-triage {
+    gap: 10px;
+    padding: 18px;
+  }
+
+  .form-heading h2 {
+    font-size: 1.22rem;
+  }
+
+  .form-heading p {
+    display: none;
+  }
+
+  .form-heading .eyebrow {
+    margin-bottom: 5px;
+  }
+
+  .triage-card span {
+    font-size: 0.9rem;
+  }
+
+  .triage-card input,
+  .triage-card select {
+    min-height: 42px;
+  }
+
+  .triage-card .button {
+    min-height: 50px;
+  }
+
+  .hero-triage .form-note {
+    display: none;
   }
 
   .section {
@@ -822,43 +917,6 @@ h3 {
   }
 
   .site-footer {
-    padding-bottom: 88px;
-  }
-
-  .mobile-action {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 12;
-    display: block;
-    padding: 0 14px 14px;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(18px);
-    transition: opacity 180ms ease, transform 180ms ease;
-  }
-
-  .mobile-action.is-visible {
-    opacity: 1;
-    pointer-events: none;
-    transform: translateY(0);
-  }
-
-  .mobile-action a {
-    display: flex;
-    gap: 8px;
-    width: min(100%, 360px);
-    min-height: 48px;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    border-radius: 999px;
-    background: var(--gold);
-    color: var(--charcoal);
-    font-weight: 700;
-    text-decoration: none;
-    box-shadow: 0 14px 30px rgba(8, 11, 18, 0.18);
-    pointer-events: auto;
+    padding-bottom: 58px;
   }
 }
