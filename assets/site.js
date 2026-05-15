@@ -11,8 +11,7 @@ const defaultWhatsappMessage = [
 const TRIAGE_FIELDS = {
   name: "Nome",
   age: "Idade aproximada",
-  objective: "Quero saber",
-  contactTime: "Melhor horário para retorno"
+  objective: "Quero saber"
 };
 
 function getGoogleAdsConfig() {
