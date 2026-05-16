@@ -8,8 +8,6 @@ pdf;Broad
 curso;Broad
 concurso;Broad
 vagas;Broad
-salário;Broad
-salario;Broad
 tabela;Broad
 telefone do inss;Phrase
 telefone inss;Phrase
@@ -52,3 +50,15 @@ beneficio negado;Phrase
 recurso inss;Phrase
 revisão da vida toda;Phrase
 revisao da vida toda;Phrase
+empréstimo;Broad
+emprestimo;Broad
+consignado;Broad
+calendário pagamento;Phrase
+calendario pagamento;Phrase
+prova de vida;Phrase
+segunda via;Phrase
+senha;Broad
+login;Broad
+carta de concessão;Phrase
+carta de concessao;Phrase
+extrato de pagamento;Phrase

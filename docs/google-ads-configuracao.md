@@ -10,13 +10,13 @@
 
 Crie conversões antes da campanha:
 
-- `Triagem enviada - Planejamento Aposentadoria`
+- `Atendimento enviado - Planejamento de Aposentadoria`
 - `Clique WhatsApp - Landing Page`
 - `Clique Telefone - Landing Page`
 - `Chamada do anúncio`
 - `Lead qualificado - Importação manual` quando houver controle em planilha ou CRM
 
-No primeiro mês, a principal decisão deve olhar `triagem enviada`, `consulta marcada`, `consulta paga` e `lead qualificado`, não apenas clique ou conversa iniciada.
+No primeiro mês, a principal decisão deve olhar `atendimento enviado`, `consulta marcada`, `consulta paga` e `lead qualificado`, não apenas clique ou conversa iniciada.
 
 Depois de criar as conversões de site, copie o `AW-XXXXXXXXXX` e os rótulos de conversão para `assets/google-ads-config.js`:
 
@@ -36,14 +36,13 @@ Enquanto esses campos estiverem vazios, a landing continua funcionando normalmen
 ## Etapa 3 - Rebuild V3
 
 - Pausar a campanha antiga e preservar histórico.
-- Criar a campanha `INSS Diagnostico Aposentadoria Jacarei SJC v3`.
+- Revisar a campanha `INSS Diagnostico Aposentadoria Jacarei SJC v3`.
 - Usar somente a Rede de Pesquisa.
 - Desativar Display e Performance Max no primeiro teste.
 - Definir localização como presença em Jacareí e São José dos Campos.
 - Aplicar palavras negativas antes de publicar.
 - Criar os quatro grupos de anúncio definidos em `ads/google-ads-search-plan.md`.
 - Manter idade `Desconhecida` aberta e excluir apenas faixas abaixo de 55.
-- Status inicial: pausada.
 - Orçamento de diagnóstico: `R$ 20/dia` por 10 dias.
 - Se em 48h houver entrega muito baixa, revisar lance/status antes de ampliar região.
 

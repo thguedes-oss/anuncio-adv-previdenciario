@@ -1,29 +1,32 @@
 Ad group;Keyword;Match type
-Consulta aposentadoria;consulta para aposentadoria;Phrase
-Consulta aposentadoria;consulta para aposentadoria;Exact
-Consulta aposentadoria;consulta aposentadoria;Phrase
-Consulta aposentadoria;consulta aposentadoria;Exact
-Consulta aposentadoria;consulta particular aposentadoria;Phrase
-Consulta aposentadoria;diagnostico aposentadoria;Phrase
-Consulta aposentadoria;diagnóstico aposentadoria;Phrase
-Consulta aposentadoria;planejamento de aposentadoria;Phrase
-Consulta aposentadoria;planejamento de aposentadoria;Exact
-Quando se aposentar;quando posso me aposentar;Phrase
-Quando se aposentar;quando posso me aposentar;Exact
-Quando se aposentar;saber quando aposentar;Phrase
-Quando se aposentar;saber quando vou me aposentar;Phrase
-Quando se aposentar;quando pedir aposentadoria;Phrase
-Quando se aposentar;melhor momento para se aposentar;Phrase
-Quando se aposentar;quanto tempo falta para me aposentar;Phrase
-Quando se aposentar;quanto tempo falta para me aposentar;Exact
-Tempo de contribuicao;tempo de contribuição para aposentadoria;Phrase
-Tempo de contribuicao;tempo de contribuicao para aposentadoria;Phrase
-Tempo de contribuicao;tempo de contribuição para aposentadoria;Exact
-Tempo de contribuicao;calcular tempo de contribuição para aposentadoria;Phrase
-Tempo de contribuicao;contagem de tempo aposentadoria;Phrase
-Tempo de contribuicao;contagem de tempo inss;Phrase
-Tempo de contribuicao;extrato previdenciário aposentadoria;Phrase
-Tempo de contribuicao;documentos do inss para aposentadoria;Phrase
+Quando posso me aposentar;quando posso me aposentar;Phrase
+Quando posso me aposentar;quando posso me aposentar;Exact
+Quando posso me aposentar;quando vou me aposentar;Phrase
+Quando posso me aposentar;saber quando vou me aposentar;Phrase
+Quando posso me aposentar;saber se posso me aposentar;Phrase
+Quando posso me aposentar;saber se posso aposentar;Phrase
+Quando posso me aposentar;quando pedir aposentadoria;Phrase
+Quando posso me aposentar;quanto tempo falta para aposentar;Phrase
+Quando posso me aposentar;quanto tempo falta para aposentar;Exact
+Quando posso me aposentar;quanto tempo falta para me aposentar;Phrase
+Quando posso me aposentar;planejamento aposentadoria inss;Phrase
+Valor da aposentadoria;quanto vou receber de aposentadoria;Phrase
+Valor da aposentadoria;quanto vou receber de aposentadoria;Exact
+Valor da aposentadoria;qual valor da minha aposentadoria;Phrase
+Valor da aposentadoria;valor aproximado aposentadoria;Phrase
+Valor da aposentadoria;calcular valor aposentadoria;Phrase
+Valor da aposentadoria;quanto vou ganhar aposentadoria;Phrase
+Valor da aposentadoria;valor beneficio aposentadoria;Phrase
+Valor da aposentadoria;beneficio aposentadoria valor;Phrase
+Melhor beneficio;qual melhor aposentadoria;Phrase
+Melhor beneficio;qual melhor aposentadoria;Exact
+Melhor beneficio;melhor beneficio aposentadoria;Phrase
+Melhor beneficio;qual melhor beneficio inss;Phrase
+Melhor beneficio;melhor regra aposentadoria;Phrase
+Melhor beneficio;melhor momento para se aposentar;Phrase
+Melhor beneficio;planejamento de aposentadoria;Phrase
+Melhor beneficio;planejamento de aposentadoria;Exact
+Melhor beneficio;consulta planejamento aposentadoria;Phrase
 Advogado aposentadoria local;advogado aposentadoria jacarei;Phrase
 Advogado aposentadoria local;advogado aposentadoria jacareí;Phrase
 Advogado aposentadoria local;advogado aposentadoria jacarei;Exact

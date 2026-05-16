@@ -8,7 +8,7 @@
 - [x] Ativar GitHub Pages com GitHub Actions.
 - [x] Copiar URL publicada.
 - [x] Testar página no celular.
-- [x] Testar envio da mini triagem para WhatsApp.
+- [x] Testar envio do formulário de atendimento para WhatsApp.
 - [x] Testar clique no telefone.
 - [x] Confirmar que as imagens em `assets/brand/` carregam corretamente.
 - [x] Concluir faturamento da conta Google Ads.
@@ -16,7 +16,7 @@
 - [x] Inserir palavras-chave.
 - [x] Inserir negativas.
 - [x] Revisar campanha antes de ativar.
-- [ ] Criar conversões no Google Ads: triagem enviada, WhatsApp e telefone.
+- [ ] Criar conversões no Google Ads: atendimento enviado, WhatsApp e telefone.
 - [ ] Preencher `assets/google-ads-config.js` com ID e rótulos reais.
 - [ ] Vincular Perfil da Empresa.
 - [ ] Ativar campanha v3 com orçamento diário de teste (`R$ 20/dia`) após confirmação final.

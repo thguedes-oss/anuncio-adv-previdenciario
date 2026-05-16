@@ -7,8 +7,6 @@ pdf
 curso
 concurso
 vagas
-salário
-salario
 tabela
 telefone do inss
 telefone inss
@@ -51,3 +49,15 @@ beneficio negado
 recurso inss
 revisão da vida toda
 revisao da vida toda
+empréstimo
+emprestimo
+consignado
+calendário pagamento
+calendario pagamento
+prova de vida
+segunda via
+senha
+login
+carta de concessão
+carta de concessao
+extrato de pagamento

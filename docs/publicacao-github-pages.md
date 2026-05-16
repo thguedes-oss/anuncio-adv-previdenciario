@@ -24,4 +24,4 @@
 - Confirmar OAB e endereco exibidos na pagina.
 - Confirmar se o Perfil da Empresa esta com telefone, horario e endereco corretos.
 - Testar a pagina no celular.
-- Testar envio da mini triagem para WhatsApp e clique no telefone.
+- Testar envio do formulário de atendimento para WhatsApp e clique no telefone.

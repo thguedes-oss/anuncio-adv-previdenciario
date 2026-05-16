@@ -2,6 +2,7 @@ const CAMPAIGN_CANDIDATE_NAMES = [
   "INSS Diagnostico Aposentadoria Jacarei SJC v3",
   "INSS Planejamento Jacarei SJC",
   "INSS Planejamento Aposentadoria 55+ v2",
+  "Advogado Previdenci\u00e1rio (INSS)",
   "[S] - Leads - Previdenciario",
   "[S] - Leads - Previdenci\u00e1rio"
 ];
@@ -34,46 +35,49 @@ const AGE_RANGES_TO_KEEP_OPEN = [
 
 const AD_GROUPS = [
   {
-    name: "Consulta aposentadoria",
+    name: "Quando posso me aposentar",
     cpcMicros: 6500000,
-    keywords: [
-      { text: "consulta para aposentadoria", matchType: "PHRASE" },
-      { text: "consulta para aposentadoria", matchType: "EXACT" },
-      { text: "consulta aposentadoria", matchType: "PHRASE" },
-      { text: "consulta aposentadoria", matchType: "EXACT" },
-      { text: "consulta particular aposentadoria", matchType: "PHRASE" },
-      { text: "diagnostico aposentadoria", matchType: "PHRASE" },
-      { text: "diagn\u00f3stico aposentadoria", matchType: "PHRASE" },
-      { text: "planejamento de aposentadoria", matchType: "PHRASE" },
-      { text: "planejamento de aposentadoria", matchType: "EXACT" }
-    ]
-  },
-  {
-    name: "Quando se aposentar",
-    cpcMicros: 5500000,
     keywords: [
       { text: "quando posso me aposentar", matchType: "PHRASE" },
       { text: "quando posso me aposentar", matchType: "EXACT" },
-      { text: "saber quando aposentar", matchType: "PHRASE" },
+      { text: "quando vou me aposentar", matchType: "PHRASE" },
       { text: "saber quando vou me aposentar", matchType: "PHRASE" },
+      { text: "saber se posso me aposentar", matchType: "PHRASE" },
+      { text: "saber se posso aposentar", matchType: "PHRASE" },
       { text: "quando pedir aposentadoria", matchType: "PHRASE" },
-      { text: "melhor momento para se aposentar", matchType: "PHRASE" },
+      { text: "quanto tempo falta para aposentar", matchType: "PHRASE" },
+      { text: "quanto tempo falta para aposentar", matchType: "EXACT" },
       { text: "quanto tempo falta para me aposentar", matchType: "PHRASE" },
-      { text: "quanto tempo falta para me aposentar", matchType: "EXACT" }
+      { text: "planejamento aposentadoria inss", matchType: "PHRASE" }
     ]
   },
   {
-    name: "Tempo de contribuicao",
-    cpcMicros: 5500000,
+    name: "Valor da aposentadoria",
+    cpcMicros: 6500000,
     keywords: [
-      { text: "tempo de contribui\u00e7\u00e3o para aposentadoria", matchType: "PHRASE" },
-      { text: "tempo de contribuicao para aposentadoria", matchType: "PHRASE" },
-      { text: "tempo de contribui\u00e7\u00e3o para aposentadoria", matchType: "EXACT" },
-      { text: "calcular tempo de contribui\u00e7\u00e3o para aposentadoria", matchType: "PHRASE" },
-      { text: "contagem de tempo aposentadoria", matchType: "PHRASE" },
-      { text: "contagem de tempo inss", matchType: "PHRASE" },
-      { text: "extrato previdenci\u00e1rio aposentadoria", matchType: "PHRASE" },
-      { text: "documentos do inss para aposentadoria", matchType: "PHRASE" }
+      { text: "quanto vou receber de aposentadoria", matchType: "PHRASE" },
+      { text: "quanto vou receber de aposentadoria", matchType: "EXACT" },
+      { text: "qual valor da minha aposentadoria", matchType: "PHRASE" },
+      { text: "valor aproximado aposentadoria", matchType: "PHRASE" },
+      { text: "calcular valor aposentadoria", matchType: "PHRASE" },
+      { text: "quanto vou ganhar aposentadoria", matchType: "PHRASE" },
+      { text: "valor beneficio aposentadoria", matchType: "PHRASE" },
+      { text: "beneficio aposentadoria valor", matchType: "PHRASE" }
+    ]
+  },
+  {
+    name: "Melhor beneficio",
+    cpcMicros: 6500000,
+    keywords: [
+      { text: "qual melhor aposentadoria", matchType: "PHRASE" },
+      { text: "qual melhor aposentadoria", matchType: "EXACT" },
+      { text: "melhor beneficio aposentadoria", matchType: "PHRASE" },
+      { text: "qual melhor beneficio inss", matchType: "PHRASE" },
+      { text: "melhor regra aposentadoria", matchType: "PHRASE" },
+      { text: "melhor momento para se aposentar", matchType: "PHRASE" },
+      { text: "planejamento de aposentadoria", matchType: "PHRASE" },
+      { text: "planejamento de aposentadoria", matchType: "EXACT" },
+      { text: "consulta planejamento aposentadoria", matchType: "PHRASE" }
     ]
   },
   {
@@ -98,28 +102,28 @@ const AD_GROUPS = [
 ];
 
 const HEADLINES = [
-  "Diagn\u00f3stico de Aposentadoria",
-  "Planeje Quando Se Aposentar",
-  "Consulta Particular INSS",
-  "Tempo de Contribui\u00e7\u00e3o",
+  "Saiba Quando Se Aposentar",
+  "Planejamento de Aposentadoria",
+  "Valor Aproximado do Benef\u00edcio",
+  "Qual o Melhor Benef\u00edcio",
   "Advogado Previdenci\u00e1rio",
-  "Jacare\u00ed e SJC",
-  "Documentos do INSS",
-  "Hist\u00f3rico de Trabalho",
+  "Atendimento em Jacare\u00ed",
   "Consulta Com Agendamento",
   "Pr\u00f3ximo da Aposentadoria",
-  "Planejamento Pelo INSS",
-  "Avalie Seu Hist\u00f3rico",
   "Aposentadoria Pelo INSS",
+  "Hist\u00f3rico de Trabalho",
+  "Tempo de Contribui\u00e7\u00e3o",
+  "Antes de Pedir ao INSS",
   "Escrit\u00f3rio em Jacare\u00ed",
+  "Jacare\u00ed e SJC",
   "Atendimento Online"
 ];
 
 const DESCRIPTIONS = [
-  "Consulta particular para avaliar tempo de contribui\u00e7\u00e3o e documentos do INSS.",
-  "Diagn\u00f3stico inicial para quem est\u00e1 pr\u00f3ximo de se aposentar. Atendimento agendado.",
-  "Organize hist\u00f3rico de trabalho e pr\u00f3ximos passos antes de pedir aposentadoria.",
-  "Atendimento em Jacare\u00ed, S\u00e3o Jos\u00e9 dos Campos e online para planejamento."
+  "Consulta para avaliar tempo de contribui\u00e7\u00e3o e orientar o pedido ao INSS.",
+  "Saiba quando pedir aposentadoria e qual caminho pode fazer sentido no seu caso.",
+  "Planejamento com an\u00e1lise do hist\u00f3rico de trabalho e contagem de tempo.",
+  "Atendimento em Jacare\u00ed, S\u00e3o Jos\u00e9 dos Campos e online, mediante agendamento."
 ];
 
 const NEGATIVE_KEYWORDS = [
@@ -132,8 +136,6 @@ const NEGATIVE_KEYWORDS = [
   { text: "curso", matchType: "BROAD" },
   { text: "concurso", matchType: "BROAD" },
   { text: "vagas", matchType: "BROAD" },
-  { text: "sal\u00e1rio", matchType: "BROAD" },
-  { text: "salario", matchType: "BROAD" },
   { text: "telefone do inss", matchType: "PHRASE" },
   { text: "telefone inss", matchType: "PHRASE" },
   { text: "ag\u00eancia inss", matchType: "PHRASE" },
@@ -168,10 +170,22 @@ const NEGATIVE_KEYWORDS = [
   { text: "sal\u00e1rio maternidade", matchType: "PHRASE" },
   { text: "salario maternidade", matchType: "PHRASE" },
   { text: "pens\u00e3o por morte", matchType: "PHRASE" },
-  { text: "pensao por morte", matchType: "PHRASE" }
+  { text: "pensao por morte", matchType: "PHRASE" },
+  { text: "empr\u00e9stimo", matchType: "BROAD" },
+  { text: "emprestimo", matchType: "BROAD" },
+  { text: "consignado", matchType: "BROAD" },
+  { text: "calend\u00e1rio pagamento", matchType: "PHRASE" },
+  { text: "calendario pagamento", matchType: "PHRASE" },
+  { text: "prova de vida", matchType: "PHRASE" },
+  { text: "segunda via", matchType: "PHRASE" },
+  { text: "senha", matchType: "BROAD" },
+  { text: "login", matchType: "BROAD" },
+  { text: "carta de concess\u00e3o", matchType: "PHRASE" },
+  { text: "carta de concessao", matchType: "PHRASE" },
+  { text: "extrato de pagamento", matchType: "PHRASE" }
 ];
 
-const BROAD_NEGATIVES_TO_REMOVE = ["simulador"];
+const BROAD_NEGATIVES_TO_REMOVE = ["simulador", "sal\u00e1rio", "salario"];
 
 function main() {
   const campaign = findCampaignForV3();
@@ -180,21 +194,43 @@ function main() {
 
 function refreshExistingCampaign(campaign) {
   campaign.pause();
+  pauseOtherCandidateCampaigns(campaign);
   if (campaign.getName() !== CAMPAIGN_NAME) {
     Logger.log("Campanha existente usada como base da v3: " + campaign.getName());
     campaign.setName(CAMPAIGN_NAME);
   }
   campaign.getBudget().setAmount(DAILY_BUDGET);
+  setPresenceLocationOption(campaign);
   setLocations(campaign);
   removeUndesiredBroadNegatives(campaign);
   upsertCampaignNegatives(campaign);
   upsertAdGroups(campaign);
   pauseDisallowedAdGroups(campaign);
   applyAgeFilter(campaign);
-  campaign.pause();
-  Logger.log("Campanha v3 preparada e mantida pausada: " + campaign.getName());
-  Logger.log("Or\u00e7amento: R$ " + DAILY_BUDGET + "/dia por 10 dias, sem ativar veicula\u00e7\u00e3o.");
+  campaign.enable();
+  Logger.log("Campanha v3 revisada e ATIVADA: " + campaign.getName());
+  Logger.log("Or\u00e7amento: R$ " + DAILY_BUDGET + "/dia por 10 dias.");
   Logger.log("Idade Desconhecida permanece aberta; apenas faixas abaixo de 55 foram exclu\u00eddas.");
+}
+
+function pauseOtherCandidateCampaigns(activeCampaign) {
+  const activeId = String(activeCampaign.getId());
+  const candidateNames = {};
+  CAMPAIGN_CANDIDATE_NAMES.forEach(function(name) {
+    candidateNames[name] = true;
+  });
+
+  const iterator = AdsApp.campaigns().get();
+  while (iterator.hasNext()) {
+    const campaign = iterator.next();
+    if (String(campaign.getId()) === activeId) {
+      continue;
+    }
+    if (candidateNames[campaign.getName()]) {
+      campaign.pause();
+      Logger.log("Campanha antiga mantida pausada: " + campaign.getName());
+    }
+  }
 }
 
 function findCampaignForV3() {
@@ -239,6 +275,29 @@ function setLocations(campaign) {
       Logger.log("Local adicionado: " + id);
     }
   });
+}
+
+function setPresenceLocationOption(campaign) {
+  try {
+    AdsApp.mutateAll([{
+      campaignOperation: {
+        update: {
+          resourceName: "customers/" + getCustomerId() + "/campaigns/" + campaign.getId(),
+          geoTargetTypeSetting: {
+            positiveGeoTargetType: "PRESENCE",
+            negativeGeoTargetType: "PRESENCE"
+          }
+        },
+        updateMask: "geo_target_type_setting.positive_geo_target_type,geo_target_type_setting.negative_geo_target_type"
+      }
+    }], {
+      apiVersion: API_VERSION,
+      partialFailure: false
+    });
+    Logger.log("Op\u00e7\u00e3o de localiza\u00e7\u00e3o ajustada para presen\u00e7a na regi\u00e3o.");
+  } catch (error) {
+    Logger.log("N\u00e3o foi poss\u00edvel ajustar op\u00e7\u00e3o de localiza\u00e7\u00e3o por script; conferir manualmente: " + error);
+  }
 }
 
 function upsertAdGroups(campaign) {
@@ -466,4 +525,8 @@ function formatKeyword(keyword) {
 
 function normalizeKeywordKey(text) {
   return String(text || "").trim().toLowerCase();
+}
+
+function getCustomerId() {
+  return AdsApp.currentAccount().getCustomerId().replace(/-/g, "");
 }

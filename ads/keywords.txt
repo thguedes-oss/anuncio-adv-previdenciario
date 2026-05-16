@@ -1,33 +1,36 @@
-# Consulta aposentadoria
-"consulta para aposentadoria"
-[consulta para aposentadoria]
-"consulta aposentadoria"
-[consulta aposentadoria]
-"consulta particular aposentadoria"
-"diagnostico aposentadoria"
-"diagnóstico aposentadoria"
-"planejamento de aposentadoria"
-[planejamento de aposentadoria]
-
-# Quando se aposentar
+# Quando posso me aposentar
 "quando posso me aposentar"
 [quando posso me aposentar]
-"saber quando aposentar"
+"quando vou me aposentar"
 "saber quando vou me aposentar"
+"saber se posso me aposentar"
+"saber se posso aposentar"
 "quando pedir aposentadoria"
-"melhor momento para se aposentar"
+"quanto tempo falta para aposentar"
+[quanto tempo falta para aposentar]
 "quanto tempo falta para me aposentar"
-[quanto tempo falta para me aposentar]
+"planejamento aposentadoria inss"
 
-# Tempo de contribuição
-"tempo de contribuição para aposentadoria"
-"tempo de contribuicao para aposentadoria"
-[tempo de contribuição para aposentadoria]
-"calcular tempo de contribuição para aposentadoria"
-"contagem de tempo aposentadoria"
-"contagem de tempo inss"
-"extrato previdenciário aposentadoria"
-"documentos do inss para aposentadoria"
+# Valor da aposentadoria
+"quanto vou receber de aposentadoria"
+[quanto vou receber de aposentadoria]
+"qual valor da minha aposentadoria"
+"valor aproximado aposentadoria"
+"calcular valor aposentadoria"
+"quanto vou ganhar aposentadoria"
+"valor beneficio aposentadoria"
+"beneficio aposentadoria valor"
+
+# Melhor beneficio
+"qual melhor aposentadoria"
+[qual melhor aposentadoria]
+"melhor beneficio aposentadoria"
+"qual melhor beneficio inss"
+"melhor regra aposentadoria"
+"melhor momento para se aposentar"
+"planejamento de aposentadoria"
+[planejamento de aposentadoria]
+"consulta planejamento aposentadoria"
 
 # Advogado aposentadoria local
 "advogado aposentadoria jacarei"

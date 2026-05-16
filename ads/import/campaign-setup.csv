@@ -1,12 +1,12 @@
 Item;Valor
 Campanha;INSS Diagnostico Aposentadoria Jacarei SJC v3
-Status inicial;Pausada
+Status;Ativar após revisão
 Tipo;Rede de Pesquisa
 Orçamento diário;R$ 20
-Meta;Triagens qualificadas para consulta particular de diagnóstico inicial de aposentadoria
+Meta;Atendimentos qualificados para consulta de planejamento de aposentadoria
 Perfil prioritário;Pessoas 55+ próximas da aposentadoria, mantendo idade Desconhecida aberta
 Filtro demográfico;Excluir abaixo de 55; manter 55-64, 65+ e Desconhecida
-Lance inicial;CPC manual com ECPC e lances suficientes para gerar impressões locais
+Lance inicial;Maximizar cliques com controle conservador e revisão de lance após 24-48h
 Redes;Pesquisa Google
 Parceiros de pesquisa;Desativado no primeiro teste
 Localização;Jacareí e São José dos Campos
